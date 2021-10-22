@@ -142,7 +142,7 @@
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return "assets/js/" + ({"53":"935f2afb","195":"c4f5d8e4","206":"f8409a7e","306":"d18fc86d","367":"8d85f2e7","452":"c20fed52","468":"6e558a13","477":"b2f554cd","513":"0a9ad131","514":"1be78505","592":"common","597":"d800760c","608":"9e4087bc","687":"54ada242","730":"31c0b5e4","794":"70095ecc","799":"1cc229ce","814":"52504bcc","911":"7b06ddcb","918":"17896441"}[chunkId] || chunkId) + "." + {"53":"44f149e0","75":"a7ae8320","195":"0e27a616","206":"f8808eb0","282":"65d40684","306":"965366ad","367":"40f18b68","452":"49bb8424","468":"189008c1","477":"cc75a572","513":"a51861ff","514":"619d08b3","592":"e4464ffa","597":"523ff3cf","608":"7009c55c","687":"db988b86","730":"53b64a3c","794":"b52d8ca7","799":"9d5f3b75","814":"5d3474a9","911":"1ceb44c0","918":"a9efd232","938":"eb85b3a7"}[chunkId] + ".js";
+/******/ 			return "assets/js/" + ({"1":"2cff1670","53":"935f2afb","195":"c4f5d8e4","206":"f8409a7e","306":"d18fc86d","367":"8d85f2e7","452":"c20fed52","468":"6e558a13","513":"0a9ad131","514":"1be78505","592":"common","597":"d800760c","608":"9e4087bc","687":"54ada242","730":"31c0b5e4","794":"70095ecc","799":"1cc229ce","814":"52504bcc","911":"7b06ddcb","918":"17896441"}[chunkId] || chunkId) + "." + {"1":"45a12bb2","53":"486670f1","75":"a7ae8320","195":"0e27a616","206":"5c390edc","282":"65d40684","306":"93be86bf","367":"2c582a42","452":"f09c5c36","468":"56e37c1e","513":"ff6fcc2c","514":"619d08b3","592":"e4464ffa","597":"6f88fe69","608":"7009c55c","687":"fb81164b","730":"8fd3dc6d","794":"93bc2c84","799":"8f8d5106","814":"5059cdb8","911":"8ad9fa86","918":"a9efd232","938":"eb85b3a7"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -231,13 +231,13 @@
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	!function() {
-/******/ 		__webpack_require__.p = "/";
+/******/ 		__webpack_require__.p = "/boilerplate-ui-framework-site/";
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/compat */
 /******/ 	
 /******/ 	// function to get chunk asset
-/******/ 	__webpack_require__.gca = function(chunkId) { chunkId = {"17896441":"918","935f2afb":"53","c4f5d8e4":"195","f8409a7e":"206","d18fc86d":"306","8d85f2e7":"367","c20fed52":"452","6e558a13":"468","b2f554cd":"477","0a9ad131":"513","1be78505":"514","common":"592","d800760c":"597","9e4087bc":"608","54ada242":"687","31c0b5e4":"730","70095ecc":"794","1cc229ce":"799","52504bcc":"814","7b06ddcb":"911"}[chunkId]||chunkId; return __webpack_require__.p + __webpack_require__.u(chunkId); };
+/******/ 	__webpack_require__.gca = function(chunkId) { chunkId = {"17896441":"918","2cff1670":"1","935f2afb":"53","c4f5d8e4":"195","f8409a7e":"206","d18fc86d":"306","8d85f2e7":"367","c20fed52":"452","6e558a13":"468","0a9ad131":"513","1be78505":"514","common":"592","d800760c":"597","9e4087bc":"608","54ada242":"687","31c0b5e4":"730","70095ecc":"794","1cc229ce":"799","52504bcc":"814","7b06ddcb":"911"}[chunkId]||chunkId; return __webpack_require__.p + __webpack_require__.u(chunkId); };
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	!function() {
