@@ -2861,7 +2861,7 @@ hr {
 
 .admonition {
   margin-bottom: 1em;
-}.docusaurus-highlight-code-line{background-color:rgba(0,0,0,.1);display:block;margin:0 calc(-1*1rem);padding:0 1rem}html[data-theme=dark] .docusaurus-highlight-code-line{background-color:rgba(0,0,0,.3)}.markdown>h1{font-size:2rem}.markdown>h1:first-child {font-size:3rem;
+}.docusaurus-highlight-code-line{background-color:rgba(0,0,0,.1);display:block;margin:0 calc(-1*1rem);padding:0 1rem}html[data-theme=dark] .docusaurus-highlight-code-line{background-color:rgba(0,0,0,.3)}.navbar__link>span{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-direction:row;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row;-ms-flex-align:center;-webkit-box-align:center;align-items:center}.markdown>h1{font-size:2rem}.markdown>h1:first-child {font-size:3rem;
 }.markdown>h2{font-size:2rem}.markdown>h3{font-size:1.5rem}.markdown>h4{font-size:1rem}/*! tailwindcss v2.2.17 | MIT License | https://tailwindcss.com *//*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize *//*
 Document
 ========
