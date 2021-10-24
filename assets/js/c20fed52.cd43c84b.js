@@ -953,8 +953,8 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
       },
       "sidebar": "tutorialSidebar",
       "previous": {
-        "title": "JIT 模式",
-        "permalink": "/boilerplate-ui-framework-site/docs/advance/jit"
+        "title": "IE 11 兼容",
+        "permalink": "/boilerplate-ui-framework-site/docs/advance/ie11"
       },
       "next": {
         "title": "图标",

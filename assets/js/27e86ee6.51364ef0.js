@@ -331,8 +331,8 @@
         "permalink": "/boilerplate-ui-framework-site/docs/advance/deploy"
       },
       "next": {
-        "title": "Card 组件",
-        "permalink": "/boilerplate-ui-framework-site/docs/components/card"
+        "title": "IE 11 兼容",
+        "permalink": "/boilerplate-ui-framework-site/docs/advance/ie11"
       }
     };
     /* @jsxRuntime classic */
