@@ -1317,47 +1317,6 @@
         "title": "\"/UI/scss/components/index.scss\""
       }, "@import \"Card\";\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "\u7136\u540E\u8BA9\u6211\u4EEC\u56DE\u5230\u6587\u6863\u6587\u4EF6\u4E2D\u5F15\u7528\u5373\u53EF"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "/docs/components/card.mdx")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("code", {
-        parentName: "pre",
-        "className": "language-mdxjs",
-        "metastring": "title=\"/docs/components/card.mdx\"",
-        "title": "\"/docs/components/card.mdx\""
-      }, "import \"@UI/scss/components/Card.scss\";\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("blockquote", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", {
-        parentName: "blockquote"
-      }, "\u8BE5\u6587\u4EF6\u672A\u5728 custom.scss \u4E2D\u5F15\u7528")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("blockquote", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", {
-        parentName: "blockquote"
-      }, "\u4E3B\u8981\u56E0\u4E3A scss \u4F9D\u8D56\u5173\u7CFB, \u56E0\u4E3A custom.scss \u4E2D\u5F15\u7528\u4E86 tailwind")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("blockquote", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", {
-        parentName: "blockquote"
-      }, "\u5982\u679C\u6211\u4EEC\u5728 custom.scss \u4E2D\u5F15\u7528\u4E86\u8BE5\u6587\u4EF6, \u90A3\u4E48\u5728\u4FEE\u6539 Card.scss \u65F6")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("blockquote", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", {
-        parentName: "blockquote"
-      }, "\u5237\u65B0\u5C31\u7279\u522B\u6162, \u8FBE\u5230\u4E86 5s \u800C\u76F4\u63A5\u5728 \u6587\u6863\u4E2D\u5F15\u7528\u53CD\u800C\u5FEB\u4E86\u5F88\u591A")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
       .kt)("h2", {
         "id": "创建-ui-库对应的-js-逻辑代码"
       }, "\u521B\u5EFA UI \u5E93\u5BF9\u5E94\u7684 JS \u903B\u8F91\u4EE3\u7801"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
@@ -1556,11 +1515,7 @@
       /* .mdx */
       .kt)("inlineCode", {
         parentName: "p"
-      }, "src/components/Card/index.tsx"), "\n\u5F15\u7528 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "UI/scss/components/Card.scss")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      }, "src/components/Card/index.tsx")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("ol", {
         "start": 2

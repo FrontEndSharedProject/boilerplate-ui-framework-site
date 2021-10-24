@@ -1,6 +1,6 @@
 "use strict";
 
-(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[814], {
+(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[367], {
   /***/
   3905:
   /***/
@@ -235,7 +235,7 @@
   },
 
   /***/
-  4521:
+  8326:
   /***/
   function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
     __webpack_require__.r(__webpack_exports__);
@@ -304,35 +304,35 @@
 
     var _excluded = ["components"];
     var _frontMatter = {
-      sidebar_position: 1,
-      title: 'MDX 使用'
+      sidebar_position: 4,
+      title: '打包'
     };
     var _contentTitle = undefined;
     var _metadata = {
-      "unversionedId": "advance/mdx",
-      "id": "advance/mdx",
+      "unversionedId": "advance/build",
+      "id": "advance/build",
       "isDocsHomePage": false,
-      "title": "MDX 使用",
-      "description": "介绍",
-      "source": "@site/docs/advance/mdx.mdx",
+      "title": "打包",
+      "description": "只需执行下面代码即可 (打包应该由 CI 处理, 因为要自动部署.)",
+      "source": "@site/docs/advance/build.mdx",
       "sourceDirName": "advance",
-      "slug": "/advance/mdx",
-      "permalink": "/boilerplate-ui-framework-site/docs/advance/mdx",
+      "slug": "/advance/build",
+      "permalink": "/boilerplate-ui-framework-site/docs/advance/build",
       "tags": [],
       "version": "current",
-      "sidebarPosition": 1,
+      "sidebarPosition": 4,
       "frontMatter": {
-        "sidebar_position": 1,
-        "title": "MDX 使用"
+        "sidebar_position": 4,
+        "title": "打包"
       },
       "sidebar": "tutorialSidebar",
       "previous": {
-        "title": "适当的使用 apply",
-        "permalink": "/boilerplate-ui-framework-site/docs/paths/apply"
+        "title": "项目配置",
+        "permalink": "/boilerplate-ui-framework-site/docs/advance/config"
       },
       "next": {
-        "title": "命名与代码风格",
-        "permalink": "/boilerplate-ui-framework-site/docs/advance/standard"
+        "title": "打包后的使用",
+        "permalink": "/boilerplate-ui-framework-site/docs/advance/use-as-a-package"
       }
     };
     /* @jsxRuntime classic */
@@ -340,13 +340,13 @@
     /* @jsx mdx */
 
     var _toc = [{
-      value: '介绍',
-      id: '介绍',
+      value: 'Output 文件说明',
+      id: 'output-文件说明',
       children: [],
       level: 2
     }, {
-      value: '具体内容请查看官网',
-      id: '具体内容请查看官网',
+      value: '配置',
+      id: '配置',
       children: [],
       level: 2
     }];
@@ -369,38 +369,56 @@
         mdxType: "MDXLayout"
       }), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("h2", {
-        "id": "介绍"
-      }, "\u4ECB\u7ECD"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("p", null, "\u53EA\u9700\u6267\u884C\u4E0B\u9762\u4EE3\u7801\u5373\u53EF (\u6253\u5305\u5E94\u8BE5\u7531 CI \u5904\u7406, \u56E0\u4E3A\u8981\u81EA\u52A8\u90E8\u7F72.)"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "MDX \u662F\u4E00\u79CD\u4E66\u5199\u683C\u5F0F\uFF0C\u5141\u8BB8\u4F60\u5728 Markdown \u6587\u6863\u4E2D\u65E0\u7F1D\u5730\u63D2\u5165 JSX \u4EE3\u7801\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "\u4F60\u53EF\u4EE5\u5BFC\u5165\uFF08import\uFF09\u7EC4\u4EF6\uFF0C\u4F8B\u5982\u4EA4\u4E92\u5F0F\u56FE\u8868\u6216\u5F39\u6846\uFF0C\u5E76\u5C06\u5B83\u4EEC \u5D4C\u5165\u5230\u5185\u5BB9\u5F53\u4E2D\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u8FD9\u4F7F\u5F97\u7528\u7EC4\u4EF6\u7F16\u5199\u8F83\u957F\u7684\u5185\u5BB9\u5F62\u6210\u4E86 \u4E00\u573A\u51B2\u51FB \uD83D\uDE80\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u2764\uFE0F \u5F3A\u5927\uFF1A MDX \u5C06 markdown \u548C JSX \u8BED\u6CD5\u6DF7\u5408\u5728\u4E00\u8D77\u5E76\u5B8C\u7F8E\u5730 \u878D\u5165\u57FA\u4E8E JSX \u7684\u9879\u76EE\u5F53\u4E2D\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\uD83D\uDCBB \u4E00\u5207\u7686\u7EC4\u4EF6\uFF1A \u5BFC\u5165\uFF08import\uFF09 JSX \u7EC4\u4EF6\u5E76 \u5728 MDX \u6587\u6863\u4E2D\u76F4\u63A5\u6E32\u67D3\u5B83\u4EEC\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\uD83D\uDD27 \u53EF\u5B9A\u5236\uFF1A \u4E3A\u6BCF\u4E00\u4E2A markdown \u5143\u7D20\u51B3\u5B9A\u7528\u54EA\u4E2A\u7EC4\u4EF6\u6E32\u67D3\u3002 \u6E32\u67D3\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\uD83D\uDCDA \u57FA\u4E8E Markdown\uFF1A Markdown \u7684\u7B80\u6D01\u548C\u4F18\u96C5\u4F9D\u7136\u5F97\u5230\u4E86\u4FDD\u5B58\uFF0C \u53EA\u987B\u5728\u9700\u8981\u65F6\u624D\u6DF7\u5165 JSX \u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\uD83D\uDD25 \u8D85\u7EA7\u8D85\u7EA7\u5FEB\uFF1A MDX \u6CA1\u6709\u8FD0\u884C\u65F6\uFF0C\u6240\u6709\u7684\u7F16\u8BD1\u90FD\u53D1\u751F\u5728 \u6784\u5EFA\u9636\u6BB5\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u7F16\u4E0D\u4E0B\u53BB\u4E86.."), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("code", {
+        parentName: "pre",
+        "className": "language-shell"
+      }, "$ yarn build\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("h2", {
-        "id": "具体内容请查看官网"
-      }, "\u5177\u4F53\u5185\u5BB9\u8BF7\u67E5\u770B\u5B98\u7F51"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+        "id": "output-文件说明"
+      }, "Output \u6587\u4EF6\u8BF4\u660E"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("p", null, "\u6267\u884C\u5B8C ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("a", {
-        parentName: "p",
-        "href": "https://mdxjs.com/"
-      }, "https://mdxjs.com/")));
+      .kt)("inlineCode", {
+        parentName: "p"
+      }, "build"), " \u547D\u4EE4\u540E, \u4F1A\u5728\u6839\u76EE\u5F55\u4E2D\u751F\u6210 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("inlineCode", {
+        parentName: "p"
+      }, "build"), " \u76EE\u5F55"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("p", null, "\u8BE5\u76EE\u5F55\u53EF\u4EE5\u76F4\u63A5\u62D6\u62FD\u5230\u670D\u52A1\u5668\u4E0A (\u6216\u8005\u90E8\u7F72) \u6765\u5F62\u6210\u7F51\u7AD9"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("p", null, "\u4E0B\u9762\u53EA\u4ECB\u7ECD\u51E0\u4E2A\u5173\u952E\u7684\u6587\u4EF6\u5939"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("code", {
+        parentName: "pre",
+        "className": "language-text"
+      }, "\uD83D\uDCE6build\n \u2523 \uD83D\uDCC2assets\n \u2523 \uD83D\uDCC2blog\n \u2523 \uD83D\uDCC2dist   //  dist \u76EE\u5F55\u4E2D\u5305\u542B\u7684\u662F UI \u7EC4\u4EF6\u5E93\u6253\u5305\u51FA\u6765\u7684\u6587\u4EF6, \u8FD9\u4E2A\u6587\u4EF6\u5939\u53EF\u4EE5\u76F4\u63A5\u7528\u4F5C\u4E0E npm \u53D1\u5E03\n \u2503 \u2523 \uD83D\uDCC2assets   //  \u5B58\u653E UI \u7EC4\u4EF6\u5E93\u4E2D\u7528\u5230\u7684\u9759\u6001\u8D44\u6E90\u6587\u4EF6\n \u2503 \u2503 \u2517 \uD83D\uDCC2fonts  //  UI \u7EC4\u4EF6\u5E93\u7684\u5B57\u4F53\u56FE\u6807\n \u2503 \u2523 \uD83D\uDCC2js       //  types \u76EE\u5F55\n \u2503 \u2523 \uD83D\uDCC2themeConfigs                     //  UI \u7EC4\u4EF6\u5E93 \u4E3B\u9898\u914D\u7F6E\n \u2503 \u2523 \uD83D\uDCDCboilerplate-ui-framework.css     //  UI \u7EC4\u4EF6\u5E93\u7684 css \u6587\u4EF6\n \u2503 \u2523 \uD83D\uDCDCboilerplate-ui-framework.es.js   //  UI \u7EC4\u4EF6\u5E93\u7684 Js \u6587\u4EF6 ES Modules \u6A21\u5F0F\n \u2503 \u2523 \uD83D\uDCDCboilerplate-ui-framework.umd.js  //  UI \u7EC4\u4EF6\u5E93\u7684 JS \u6587\u4EF6 UMD \u6A21\u5F0F\n \u2503 \u2523 \uD83D\uDCDCindex.d.ts                       //  UI \u7EC4\u4EF6\u5E93 JS \u5BF9\u5E94\u7684 types \u6587\u4EF6\n \u2503 \u2523 \uD83D\uDCDCtailwind.config.js               //  UI \u7EC4\u4EF6\u5E93\u7528\u5230\u7684 tailwind \u914D\u7F6E\n \u2503 \u2517 \uD83D\uDCDCtailwindSafelist.json            //  UO \u7EC4\u4EF6\u5E93\u4F7F\u7528 purge \u540E\u5B58\u7559\u7684 classlist\n \u2523 \uD83D\uDCC2docs\n \u2523 \uD83D\uDCC2fonts\n \u2523 \uD83D\uDCC2img\n \u2523 \uD83D\uDCDC.nojekyll\n \u2523 \uD83D\uDCDC404.html\n \u2523 \uD83D\uDCDCindex.html     //  \u7F51\u7AD9\u5165\u53E3\u6587\u4EF6\n \u2517 \uD83D\uDCDCsitemap.xml\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("h2", {
+        "id": "配置"
+      }, "\u914D\u7F6E"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("p", null, "\u6253\u5305\u51FA\u6765\u540E\u6587\u4EF6\u7684\u540D\u79F0, \u4F60\u53EF\u4EE5\u4FEE\u6539 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("inlineCode", {
+        parentName: "p"
+      }, "package.json"), " \u4E2D\u5BF9\u5E94\u7684\u4EE5\u4E0B\u5B57\u6BB5"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("code", {
+        parentName: "pre",
+        "className": "language-json"
+      }, "{\n  \"name\": \"boilerplate-ui-framework\", //  \u6253\u5305\u51FA\u6765\u540E\u6587\u4EF6\u7684\u540D\u79F0\n  \"main\": \"build/dist/boilerplate-ui-framework.umd.js\", //  \u6307\u5B9A\u5165\u53E3\u6587\u4EF6\n  \"module\": \"build/dist/boilerplate-ui-framework.es.js\" //  \u6307\u5B9A es module \u5F15\u7528\u65F6\u7684\u5165\u53E3\n}\n")));
     }
 
     ;

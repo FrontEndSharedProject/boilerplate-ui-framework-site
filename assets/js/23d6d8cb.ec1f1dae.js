@@ -1,6 +1,6 @@
 "use strict";
 
-(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[367], {
+(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[393], {
   /***/
   3905:
   /***/
@@ -235,7 +235,7 @@
   },
 
   /***/
-  8326:
+  3432:
   /***/
   function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
     __webpack_require__.r(__webpack_exports__);
@@ -304,52 +304,42 @@
 
     var _excluded = ["components"];
     var _frontMatter = {
-      sidebar_position: 4,
-      title: '打包'
+      sidebar_position: 5,
+      title: '适当的使用 apply'
     };
     var _contentTitle = undefined;
     var _metadata = {
-      "unversionedId": "advance/build",
-      "id": "advance/build",
+      "unversionedId": "paths/apply",
+      "id": "paths/apply",
       "isDocsHomePage": false,
-      "title": "打包",
-      "description": "只需执行下面代码即可 (打包应该由 CI 处理, 因为要自动部署.)",
-      "source": "@site/docs/advance/build.mdx",
-      "sourceDirName": "advance",
-      "slug": "/advance/build",
-      "permalink": "/boilerplate-ui-framework-site/docs/advance/build",
+      "title": "适当的使用 apply",
+      "description": "DOWNLOAD",
+      "source": "@site/docs/paths/apply.mdx",
+      "sourceDirName": "paths",
+      "slug": "/paths/apply",
+      "permalink": "/boilerplate-ui-framework-site/docs/paths/apply",
       "tags": [],
       "version": "current",
-      "sidebarPosition": 4,
+      "sidebarPosition": 5,
       "frontMatter": {
-        "sidebar_position": 4,
-        "title": "打包"
+        "sidebar_position": 5,
+        "title": "适当的使用 apply"
       },
       "sidebar": "tutorialSidebar",
       "previous": {
-        "title": "项目配置",
-        "permalink": "/boilerplate-ui-framework-site/docs/advance/config"
+        "title": "文档内跳转",
+        "permalink": "/boilerplate-ui-framework-site/docs/paths/use-link"
       },
       "next": {
-        "title": "打包后的使用",
-        "permalink": "/boilerplate-ui-framework-site/docs/advance/use-as-a-package"
+        "title": "主题配置",
+        "permalink": "/boilerplate-ui-framework-site/docs/paths/theme-config"
       }
     };
     /* @jsxRuntime classic */
 
     /* @jsx mdx */
 
-    var _toc = [{
-      value: 'Output 文件说明',
-      id: 'output-文件说明',
-      children: [],
-      level: 2
-    }, {
-      value: '配置',
-      id: '配置',
-      children: [],
-      level: 2
-    }];
+    var _toc = [];
     var layoutProps = {
       toc: _toc
     };
@@ -369,56 +359,52 @@
         mdxType: "MDXLayout"
       }), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "\u53EA\u9700\u6267\u884C\u4E0B\u9762\u4EE3\u7801\u5373\u53EF (\u6253\u5305\u5E94\u8BE5\u7531 CI \u5904\u7406, \u56E0\u4E3A\u8981\u81EA\u52A8\u90E8\u7F72.)"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("section", {
+        class: "tw"
+      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("div", {
+        className: "w-1/4 mb-4"
+      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("button", {
+        class: "transform active:scale-95 bg-blue-500 hover:bg-blue-400 text-white px-16 py-6 rounded-lg font-bold tracking-widest w-full"
+      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("div", {
+        class: "flex justify-center items-center relative"
+      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("div", {
+        class: "button-copy pl-2 leading-none uppercase"
+      }, "DOWNLOAD"))))), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("code", {
         parentName: "pre",
-        "className": "language-shell"
-      }, "$ yarn build\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+        "className": "language-html"
+      }, "<button\n  class=\"transform active:scale-95 bg-blue-500 hover:bg-blue-400 text-white px-16 py-6 rounded-lg font-bold tracking-widest w-full\"\n>\n  <div class=\"flex justify-center items-center relative\">\n    <div class=\"button-copy pl-2 leading-none uppercase\">DOWNLOAD</div>\n  </div>\n</button>\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("h2", {
-        "id": "output-文件说明"
-      }, "Output \u6587\u4EF6\u8BF4\u660E"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("p", null, "\u4E0A\u9762\u8FD9\u4E48\u4E00\u4E2A\u7B80\u5355\u7684\u6309\u94AE, \u5C31\u8981\u82B1\u8D39\u6211\u4EEC\u5199\u8FD9\u4E48\u4E00\u957F\u4E32\u7684 class, \u90A3\u4E48\u5982\u679C\u540E\u671F\u9700\u8981\u53D8\u66F4\u4E00\u4E2A\u6837\u5F0F, \u8FD9\u6837\u5C31\u9700\u8981\u5230\u5404\u4E2A\u9879\u76EE\u4E2D\u53BB\u4FEE\u6539 class \u540D, \u8FD9\u65E0\u7591\u662F\u707E\u96BE\u6027\u7684\u95EE\u9898"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "\u6267\u884C\u5B8C ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("p", null, "\u6240\u4EE5\u5E94\u8BE5\u5C3D\u91CF\u4F7F\u7528 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("inlineCode", {
         parentName: "p"
-      }, "build"), " \u547D\u4EE4\u540E, \u4F1A\u5728\u6839\u76EE\u5F55\u4E2D\u751F\u6210 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      }, "@apply"), " \u53C2\u8003\u6587\u6863", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "build"), " \u76EE\u5F55"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u8BE5\u76EE\u5F55\u53EF\u4EE5\u76F4\u63A5\u62D6\u62FD\u5230\u670D\u52A1\u5668\u4E0A (\u6216\u8005\u90E8\u7F72) \u6765\u5F62\u6210\u7F51\u7AD9"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u4E0B\u9762\u53EA\u4ECB\u7ECD\u51E0\u4E2A\u5173\u952E\u7684\u6587\u4EF6\u5939"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("a", {
+        parentName: "p",
+        "href": "https://tailwindcss.com/docs/extracting-components#extracting-component-classes-with-apply"
+      }, "https://tailwindcss.com/docs/extracting-components#extracting-component-classes-with-apply")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("code", {
         parentName: "pre",
-        "className": "language-text"
-      }, "\uD83D\uDCE6build\n \u2523 \uD83D\uDCC2assets\n \u2523 \uD83D\uDCC2blog\n \u2523 \uD83D\uDCC2dist   //  dist \u76EE\u5F55\u4E2D\u5305\u542B\u7684\u662F UI \u7EC4\u4EF6\u5E93\u6253\u5305\u51FA\u6765\u7684\u6587\u4EF6, \u8FD9\u4E2A\u6587\u4EF6\u5939\u53EF\u4EE5\u76F4\u63A5\u7528\u4F5C\u4E0E npm \u53D1\u5E03\n \u2503 \u2523 \uD83D\uDCC2assets   //  \u5B58\u653E UI \u7EC4\u4EF6\u5E93\u4E2D\u7528\u5230\u7684\u9759\u6001\u8D44\u6E90\u6587\u4EF6\n \u2503 \u2503 \u2517 \uD83D\uDCC2fonts  //  UI \u7EC4\u4EF6\u5E93\u7684\u5B57\u4F53\u56FE\u6807\n \u2503 \u2523 \uD83D\uDCC2js       //  types \u76EE\u5F55\n \u2503 \u2523 \uD83D\uDCDCboilerplate-ui-framework.css     //  UI \u7EC4\u4EF6\u5E93\u7684 css \u6587\u4EF6\n \u2503 \u2523 \uD83D\uDCDCboilerplate-ui-framework.es.js   //  UI \u7EC4\u4EF6\u5E93\u7684 Js \u6587\u4EF6 ES Modules \u6A21\u5F0F\n \u2503 \u2523 \uD83D\uDCDCboilerplate-ui-framework.umd.js  //  UI \u7EC4\u4EF6\u5E93\u7684 JS \u6587\u4EF6 UMD \u6A21\u5F0F\n \u2503 \u2523 \uD83D\uDCDCindex.d.ts                       //  UI \u7EC4\u4EF6\u5E93 JS \u5BF9\u5E94\u7684 types \u6587\u4EF6\n \u2503 \u2523 \uD83D\uDCDCtailwind.config.js               //  UI \u7EC4\u4EF6\u5E93\u7528\u5230\u7684 tailwind \u914D\u7F6E\n \u2503 \u2517 \uD83D\uDCDCtailwindSafelist.json            //  UO \u7EC4\u4EF6\u5E93\u4F7F\u7528 purge \u540E\u5B58\u7559\u7684 classlist\n \u2523 \uD83D\uDCC2docs\n \u2523 \uD83D\uDCC2fonts\n \u2523 \uD83D\uDCC2img\n \u2523 \uD83D\uDCDC.nojekyll\n \u2523 \uD83D\uDCDC404.html\n \u2523 \uD83D\uDCDCindex.html     //  \u7F51\u7AD9\u5165\u53E3\u6587\u4EF6\n \u2517 \uD83D\uDCDCsitemap.xml\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "配置"
-      }, "\u914D\u7F6E"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u6253\u5305\u51FA\u6765\u540E\u6587\u4EF6\u7684\u540D\u79F0, \u4F60\u53EF\u4EE5\u4FEE\u6539 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "package.json"), " \u4E2D\u5BF9\u5E94\u7684\u4EE5\u4E0B\u5B57\u6BB5"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("code", {
-        parentName: "pre",
-        "className": "language-json"
-      }, "{\n  \"name\": \"boilerplate-ui-framework\", //  \u6253\u5305\u51FA\u6765\u540E\u6587\u4EF6\u7684\u540D\u79F0\n  \"main\": \"build/dist/boilerplate-ui-framework.umd.js\", //  \u6307\u5B9A\u5165\u53E3\u6587\u4EF6\n  \"module\": \"build/dist/boilerplate-ui-framework.es.js\" //  \u6307\u5B9A es module \u5F15\u7528\u65F6\u7684\u5165\u53E3\n}\n")));
+        "className": "language-scss"
+      }, ".btn-indigo {\n  @apply py-2 px-4 bg-indigo-500 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75;\n}\n")));
     }
 
     ;

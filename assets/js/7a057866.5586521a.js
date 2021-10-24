@@ -331,8 +331,8 @@
         "permalink": "/boilerplate-ui-framework-site/docs/advance/jit"
       },
       "next": {
-        "title": "Card 组件",
-        "permalink": "/boilerplate-ui-framework-site/docs/components/card"
+        "title": "配置文件详解",
+        "permalink": "/boilerplate-ui-framework-site/docs/advance/config-files"
       }
     };
     /* @jsxRuntime classic */
