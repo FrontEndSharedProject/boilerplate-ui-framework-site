@@ -1,6 +1,6 @@
 "use strict";
 
-(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[393], {
+(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[597], {
   /***/
   3905:
   /***/
@@ -235,7 +235,7 @@
   },
 
   /***/
-  3432:
+  3127:
   /***/
   function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
     __webpack_require__.r(__webpack_exports__);
@@ -304,42 +304,52 @@
 
     var _excluded = ["components"];
     var _frontMatter = {
-      sidebar_position: 5,
-      title: '适当的使用 apply'
+      sidebar_position: 2,
+      title: '使用线上的资源文件'
     };
-    var _contentTitle = undefined;
+    var _contentTitle = '起因';
     var _metadata = {
-      "unversionedId": "paths/apply",
-      "id": "paths/apply",
+      "unversionedId": "paths/use-remote-source",
+      "id": "paths/use-remote-source",
       "isDocsHomePage": false,
-      "title": "适当的使用 apply",
-      "description": "DOWNLOAD",
-      "source": "@site/docs/paths/apply.mdx",
+      "title": "使用线上的资源文件",
+      "description": "大部分情况下, 我们需要使用开源库来解决解决 UI 交互, 比如常见的 'jquery' 和 'lazyload.js'",
+      "source": "@site/docs/paths/use-remote-source.mdx",
       "sourceDirName": "paths",
-      "slug": "/paths/apply",
-      "permalink": "/boilerplate-ui-framework-site/docs/paths/apply",
+      "slug": "/paths/use-remote-source",
+      "permalink": "/boilerplate-ui-framework-site/docs/paths/use-remote-source",
       "tags": [],
       "version": "current",
-      "sidebarPosition": 5,
+      "sidebarPosition": 2,
       "frontMatter": {
-        "sidebar_position": 5,
-        "title": "适当的使用 apply"
+        "sidebar_position": 2,
+        "title": "使用线上的资源文件"
       },
       "sidebar": "tutorialSidebar",
       "previous": {
-        "title": "文档内跳转",
-        "permalink": "/boilerplate-ui-framework-site/docs/paths/use-link"
+        "title": "创建一个组件",
+        "permalink": "/boilerplate-ui-framework-site/docs/paths/create-a-component"
       },
       "next": {
-        "title": "MDX 使用",
-        "permalink": "/boilerplate-ui-framework-site/docs/advance/mdx"
+        "title": "在文档中显示图片",
+        "permalink": "/boilerplate-ui-framework-site/docs/paths/use-image"
       }
     };
     /* @jsxRuntime classic */
 
     /* @jsx mdx */
 
-    var _toc = [];
+    var _toc = [{
+      value: '引入',
+      id: '引入',
+      children: [],
+      level: 2
+    }, {
+      value: '配置 typescript 声明',
+      id: '配置-typescript-声明',
+      children: [],
+      level: 2
+    }];
     var layoutProps = {
       toc: _toc
     };
@@ -359,52 +369,83 @@
         mdxType: "MDXLayout"
       }), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("section", {
-        class: "tw"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("h1", {
+        "id": "起因"
+      }, "\u8D77\u56E0"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("div", {
-        className: "w-1/4 mb-4"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("p", null, "\u5927\u90E8\u5206\u60C5\u51B5\u4E0B, \u6211\u4EEC\u9700\u8981\u4F7F\u7528\u5F00\u6E90\u5E93\u6765\u89E3\u51B3\u89E3\u51B3 UI \u4EA4\u4E92, \u6BD4\u5982\u5E38\u89C1\u7684 'jquery' \u548C 'lazyload.js'"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("button", {
-        class: "transform active:scale-95 bg-blue-500 hover:bg-blue-400 text-white px-16 py-6 rounded-lg font-bold tracking-widest w-full"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("h2", {
+        "id": "引入"
+      }, "\u5F15\u5165"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("div", {
-        class: "flex justify-center items-center relative"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("p", null, "\u8981\u60F3\u5C06\u8FD9\u4E9B\u8D44\u6E90\u6587\u4EF6\u5F15\u5165\u5230\u6587\u6863\u4E2D, \u4E14\u5728 UI \u7EC4\u4EF6\u5E93\u4E2D\u8C03\u7528, \u53EA\u9700\u6309\u4EE5\u4E0B\u914D\u7F6E\u5373\u53EF"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("div", {
-        class: "button-copy pl-2 leading-none uppercase"
-      }, "DOWNLOAD"))))), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("code", {
-        parentName: "pre",
-        "className": "language-html"
-      }, "<button\n  class=\"transform active:scale-95 bg-blue-500 hover:bg-blue-400 text-white px-16 py-6 rounded-lg font-bold tracking-widest w-full\"\n>\n  <div class=\"flex justify-center items-center relative\">\n    <div class=\"button-copy pl-2 leading-none uppercase\">DOWNLOAD</div>\n  </div>\n</button>\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u4E0A\u9762\u8FD9\u4E48\u4E00\u4E2A\u7B80\u5355\u7684\u6309\u94AE, \u5C31\u8981\u82B1\u8D39\u6211\u4EEC\u5199\u8FD9\u4E48\u4E00\u957F\u4E32\u7684 class, \u90A3\u4E48\u5982\u679C\u540E\u671F\u9700\u8981\u53D8\u66F4\u4E00\u4E2A\u6837\u5F0F, \u8FD9\u6837\u5C31\u9700\u8981\u5230\u5404\u4E2A\u9879\u76EE\u4E2D\u53BB\u4FEE\u6539 class \u540D, \u8FD9\u65E0\u7591\u662F\u707E\u96BE\u6027\u7684\u95EE\u9898"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u6240\u4EE5\u5E94\u8BE5\u5C3D\u91CF\u4F7F\u7528 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("p", null, "\u8BA9\u6211\u4EEC\u5148\u8FDB\u5165\u6839\u76EE\u5F55\u7684 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("inlineCode", {
         parentName: "p"
-      }, "@apply"), " \u53C2\u8003\u6587\u6863", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("a", {
-        parentName: "p",
-        "href": "https://tailwindcss.com/docs/extracting-components#extracting-component-classes-with-apply"
-      }, "https://tailwindcss.com/docs/extracting-components#extracting-component-classes-with-apply")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      }, "docusaurus.config.js"), " \u6587\u4EF6"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("code", {
         parentName: "pre",
-        "className": "language-scss"
-      }, ".btn-indigo {\n  @apply py-2 px-4 bg-indigo-500 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75;\n}\n")));
+        "className": "language-javascript",
+        "metastring": "title=\"docusaurus.config.js\"",
+        "title": "\"docusaurus.config.js\""
+      }, "//  \u5728\u4E0B\u9762\u8FD9\u4E2A\u6570\u7EC4\u4E2D\u53EF\u4EE5\u6DFB\u52A0\u8FDC\u7A0B\u7684 js \u6587\u4EF6\n//  \u4E5F\u53EF\u4EE5\u52A0\u8F7D\u672C\u5730\u7684 js \u6587\u4EF6, \u4F46\u662F\u8FD9\u4E2A\u6587\u4EF6\u9700\u8981\u653E\u5230 static \u76EE\u5F55\u4E0B\nconst scripts = [\n  \"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js\",\n];\n\n//  \u5728\u4E0B\u9762\u8FD9\u4E2A\u6570\u7EC4\u6DFB\u52A0\u8FDC\u7A0B css \u6587\u4EF6\n//  \u8FD9\u91CC\u4E5F\u53EF\u4EE5\u52A0\u8F7D\u672C\u5730\u7684 css \u6587\u4EF6\nconst stylesheets = [];\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("h2", {
+        "id": "配置-typescript-声明"
+      }, "\u914D\u7F6E typescript \u58F0\u660E"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("p", null, "\u5982\u679C\u6211\u4EEC\u5F15\u7528\u7684\u8FDC\u7A0B js \u6587\u4EF6, \u80FD\u641C\u7D22\u5230\u5BF9\u5E94\u7684 types \u5305\u7684\u8BDD(", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("a", {
+        parentName: "p",
+        "href": "https://www.typescriptlang.org/dt/search?search="
+      }, "\u70B9\u51FB\u6211\u8FDB\u884C\u641C\u7D22"), ") \u53EF\u4EE5\u901A\u8FC7 npm \u5B89\u88C5\u5BF9\u5E94 types"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("p", null, "\u5B89\u88C5\u5B8C\u6210\u540E\u5373\u53EF\u4F7F\u5F97\u8BE5 js \u652F\u6301 typescript \u7684\u529F\u80FD"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("p", null, "\u5982\u679C\u6CA1\u6709\u627E\u5230\u5BF9\u5E94 types \u5305, \u90A3\u4E48\u53EA\u9700\u5728\u4E0B\u9762\u8FD9\u4E2A\u6587\u4EF6\u8FDB\u884C\u914D\u7F6E\u5373\u53EF"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("p", null, "\u6BD4\u5982\u6211\u4EEC\u5F15\u7528\u4E86\u4E00\u4E2A ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("inlineCode", {
+        parentName: "p"
+      }, "nanoscroller"), " \u63D2\u4EF6, \u5047\u8BBE\u8BE5\u63D2\u4EF6\u8FD8\u672A\u53D1\u5E03\u5BF9\u5E94 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("inlineCode", {
+        parentName: "p"
+      }, "types"), "."), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("p", null, "\u6B64\u65F6\u6211\u4EEC\u76F4\u63A5\u4F7F\u7528\u4EE5\u4E0B\u4EE3\u7801\u65F6, typescript \u4F1A\u8B66\u544A\u4F60(\u4F60\u4E5F\u53EF\u4EE5\u4E0D\u7BA1)\u65E0\u6CD5\u627E\u5230 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("inlineCode", {
+        parentName: "p"
+      }, "nanoscorller"), " \u8FD9\u4E2A\u4E1C\u897F"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("code", {
+        parentName: "pre",
+        "className": "language-javascript"
+      }, "$().nanoscroller();\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("p", null, "\u6211\u4EEC\u53EA\u9700\u8981\u6765\u5230 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("inlineCode", {
+        parentName: "p"
+      }, "types/global.d.ts"), " \u4E2D, \u8FDB\u884C\u7C7B\u578B\u58F0\u660E\u5373\u53EF"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("code", {
+        parentName: "pre",
+        "className": "language-typescript"
+      }, "declare global {\n  //  \u6DFB\u52A0 window \u4E0A\u7684\u5168\u5C40\u53D8\u91CF\n  interface Window {\n    //  \u5982\u679C\u6211\u4EEC\u60F3\u5728 window \u4E0A\u81EA\u5B9A\u4E49\u4E00\u4E2A\u53D8\u91CF\n    //  \u53EA\u9700\u8981\u8FD9\u6837\u5199\n    myData: any;\n  }\n  //  \u6DFB\u52A0 JQuery \u5B9E\u4F8B\u65B9\u6CD5\n  interface JQuery {\n    //  \u6B64\u65F6 nanoscroller \u662F\u5B9E\u4F8B\u65B9\u6CD5, \u4E5F\u5C31\u662F\u901A\u8FC7 $().nanoscroller() \u6389\u7528\u7684\n    //  \u90A3\u4E48\u6211\u4EEC\u53EA\u9700\u8981\u8FD9\u6837\u5199, \u5373\u53EF\n    nanoscroller(options?: any): void;\n  }\n  //  \u6DFB\u52A0 JQuery \u5DE5\u5177\u65B9\u6CD5\n  interface JQueryStatic {\n    //  \u5982\u679C\u6211\u4EEC\u5B89\u88C5\u7684\u662F `Velocity`, \u90A3\u4E48\u5B83\u5C06\u4F1A\u662F\u4E00\u4E2A \u5DE5\u5177\u65B9\u6CD5,\n    //  \u4E5F\u5C31\u662F\u901A\u8FC7 $.Velocity() \u8FDB\u884C\u8C03\u7528\n    //  \u90A3\u4E48\u6211\u4EEC\u9700\u8981\u8FD9\u6837\u5199\n    Velocity(options: any): void;\n  }\n}\n")));
     }
 
     ;

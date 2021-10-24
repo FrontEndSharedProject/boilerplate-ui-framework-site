@@ -1,6 +1,6 @@
 "use strict";
 
-(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[393], {
+(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[911], {
   /***/
   3905:
   /***/
@@ -235,7 +235,154 @@
   },
 
   /***/
-  3432:
+  3919:
+  /***/
+  function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+    /* harmony export */
+    __webpack_require__.d(__webpack_exports__, {
+      /* harmony export */
+      "b": function b() {
+        return (
+          /* binding */
+          hasProtocol
+        );
+      },
+
+      /* harmony export */
+      "Z": function Z() {
+        return (
+          /* binding */
+          isInternalUrl
+        );
+      }
+      /* harmony export */
+
+    });
+    /**
+     * Copyright (c) Facebook, Inc. and its affiliates.
+     *
+     * This source code is licensed under the MIT license found in the
+     * LICENSE file in the root directory of this source tree.
+     */
+
+
+    function hasProtocol(url) {
+      return /^(\w*:|\/\/)/.test(url) === true;
+    }
+
+    function isInternalUrl(url) {
+      return typeof url !== 'undefined' && !hasProtocol(url);
+    }
+    /***/
+
+  },
+
+  /***/
+  4996:
+  /***/
+  function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+    /* harmony export */
+    __webpack_require__.d(__webpack_exports__, {
+      /* harmony export */
+      "C": function C() {
+        return (
+          /* binding */
+          useBaseUrlUtils
+        );
+      },
+
+      /* harmony export */
+      "Z": function Z() {
+        return (
+          /* binding */
+          useBaseUrl
+        );
+      }
+      /* harmony export */
+
+    });
+    /* harmony import */
+
+
+    var _useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2263);
+    /* harmony import */
+
+
+    var _isInternalUrl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3919);
+    /**
+     * Copyright (c) Facebook, Inc. and its affiliates.
+     *
+     * This source code is licensed under the MIT license found in the
+     * LICENSE file in the root directory of this source tree.
+     */
+
+
+    function addBaseUrl(siteUrl, baseUrl, url, _temp) {
+      var _ref = _temp === void 0 ? {} : _temp,
+          _ref$forcePrependBase = _ref.forcePrependBaseUrl,
+          forcePrependBaseUrl = _ref$forcePrependBase === void 0 ? false : _ref$forcePrependBase,
+          _ref$absolute = _ref.absolute,
+          absolute = _ref$absolute === void 0 ? false : _ref$absolute;
+
+      if (!url) {
+        return url;
+      } // it never makes sense to add a base url to a local anchor url
+
+
+      if (url.startsWith('#')) {
+        return url;
+      } // it never makes sense to add a base url to an url with a protocol
+
+
+      if ((0, _isInternalUrl__WEBPACK_IMPORTED_MODULE_1__
+      /* .hasProtocol */
+      .b)(url)) {
+        return url;
+      }
+
+      if (forcePrependBaseUrl) {
+        return baseUrl + url;
+      } // We should avoid adding the baseurl twice if it's already there
+
+
+      var shouldAddBaseUrl = !url.startsWith(baseUrl);
+      var basePath = shouldAddBaseUrl ? baseUrl + url.replace(/^\//, '') : url;
+      return absolute ? siteUrl + basePath : basePath;
+    }
+
+    function useBaseUrlUtils() {
+      var _useDocusaurusContext = (0, _useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__
+      /* ["default"] */
+      .Z)(),
+          _useDocusaurusContext2 = _useDocusaurusContext.siteConfig;
+
+      _useDocusaurusContext2 = _useDocusaurusContext2 === void 0 ? {} : _useDocusaurusContext2;
+      var _useDocusaurusContext3 = _useDocusaurusContext2.baseUrl,
+          baseUrl = _useDocusaurusContext3 === void 0 ? '/' : _useDocusaurusContext3,
+          siteUrl = _useDocusaurusContext2.url;
+      return {
+        withBaseUrl: function withBaseUrl(url, options) {
+          return addBaseUrl(siteUrl, baseUrl, url, options);
+        }
+      };
+    }
+
+    function useBaseUrl(url, options) {
+      if (options === void 0) {
+        options = {};
+      }
+
+      var _useBaseUrlUtils = useBaseUrlUtils(),
+          withBaseUrl = _useBaseUrlUtils.withBaseUrl;
+
+      return withBaseUrl(url, options);
+    }
+    /***/
+
+  },
+
+  /***/
+  5886:
   /***/
   function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
     __webpack_require__.r(__webpack_exports__);
@@ -288,11 +435,11 @@
     /* harmony import */
 
 
-    var _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7462);
+    var _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7462);
     /* harmony import */
 
 
-    var _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3366);
+    var _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3366);
     /* harmony import */
 
 
@@ -301,45 +448,59 @@
 
 
     var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
+    /* harmony import */
+
+
+    var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4996);
 
     var _excluded = ["components"];
     var _frontMatter = {
-      sidebar_position: 5,
-      title: '适当的使用 apply'
+      sidebar_position: 2,
+      title: '图标'
     };
     var _contentTitle = undefined;
     var _metadata = {
-      "unversionedId": "paths/apply",
-      "id": "paths/apply",
+      "unversionedId": "components/icons",
+      "id": "components/icons",
       "isDocsHomePage": false,
-      "title": "适当的使用 apply",
-      "description": "DOWNLOAD",
-      "source": "@site/docs/paths/apply.mdx",
-      "sourceDirName": "paths",
-      "slug": "/paths/apply",
-      "permalink": "/boilerplate-ui-framework-site/docs/paths/apply",
+      "title": "图标",
+      "description": "调用方式",
+      "source": "@site/docs/components/icons.mdx",
+      "sourceDirName": "components",
+      "slug": "/components/icons",
+      "permalink": "/boilerplate-ui-framework-site/docs/components/icons",
       "tags": [],
       "version": "current",
-      "sidebarPosition": 5,
+      "sidebarPosition": 2,
       "frontMatter": {
-        "sidebar_position": 5,
-        "title": "适当的使用 apply"
+        "sidebar_position": 2,
+        "title": "图标"
       },
       "sidebar": "tutorialSidebar",
       "previous": {
-        "title": "文档内跳转",
-        "permalink": "/boilerplate-ui-framework-site/docs/paths/use-link"
+        "title": "Card 组件",
+        "permalink": "/boilerplate-ui-framework-site/docs/components/card"
       },
       "next": {
-        "title": "MDX 使用",
-        "permalink": "/boilerplate-ui-framework-site/docs/advance/mdx"
+        "title": "限行",
+        "permalink": "/boilerplate-ui-framework-site/docs/components/lineClamp"
       }
     };
     /* @jsxRuntime classic */
 
     /* @jsx mdx */
 
-    var _toc = [];
+    var _toc = [{
+      value: '调用方式',
+      id: '调用方式',
+      children: [],
+      level: 2
+    }, {
+      value: '文件管理',
+      id: '文件管理',
+      children: [],
+      level: 2
+    }];
     var layoutProps = {
       toc: _toc
     };
@@ -347,64 +508,50 @@
 
     function MDXContent(_ref) {
       var components = _ref.components,
-          props = (0, _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_2__
+          props = (0, _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_3__
       /* ["default"] */
       .Z)(_ref, _excluded);
       return (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)(MDXLayout, (0, _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__
+      .kt)(MDXLayout, (0, _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__
       /* ["default"] */
       .Z)({}, layoutProps, props, {
         components: components,
         mdxType: "MDXLayout"
       }), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("section", {
-        class: "tw"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("h2", {
+        "id": "调用方式"
+      }, "\u8C03\u7528\u65B9\u5F0F"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("div", {
-        className: "w-1/4 mb-4"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("iframe", {
+        src: (0, _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_2__
+        /* ["default"] */
+        .Z)("/fonts/demo.html"),
+        width: "100%",
+        height: "1200px"
+      }), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("button", {
-        class: "transform active:scale-95 bg-blue-500 hover:bg-blue-400 text-white px-16 py-6 rounded-lg font-bold tracking-widest w-full"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("h2", {
+        "id": "文件管理"
+      }, "\u6587\u4EF6\u7BA1\u7406"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("div", {
-        class: "flex justify-center items-center relative"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("div", {
-        class: "button-copy pl-2 leading-none uppercase"
-      }, "DOWNLOAD"))))), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("code", {
-        parentName: "pre",
-        "className": "language-html"
-      }, "<button\n  class=\"transform active:scale-95 bg-blue-500 hover:bg-blue-400 text-white px-16 py-6 rounded-lg font-bold tracking-widest w-full\"\n>\n  <div class=\"flex justify-center items-center relative\">\n    <div class=\"button-copy pl-2 leading-none uppercase\">DOWNLOAD</div>\n  </div>\n</button>\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u4E0A\u9762\u8FD9\u4E48\u4E00\u4E2A\u7B80\u5355\u7684\u6309\u94AE, \u5C31\u8981\u82B1\u8D39\u6211\u4EEC\u5199\u8FD9\u4E48\u4E00\u957F\u4E32\u7684 class, \u90A3\u4E48\u5982\u679C\u540E\u671F\u9700\u8981\u53D8\u66F4\u4E00\u4E2A\u6837\u5F0F, \u8FD9\u6837\u5C31\u9700\u8981\u5230\u5404\u4E2A\u9879\u76EE\u4E2D\u53BB\u4FEE\u6539 class \u540D, \u8FD9\u65E0\u7591\u662F\u707E\u96BE\u6027\u7684\u95EE\u9898"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u6240\u4EE5\u5E94\u8BE5\u5C3D\u91CF\u4F7F\u7528 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "@apply"), " \u53C2\u8003\u6587\u6863", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("p", null, "\u5B57\u4F53\u56FE\u6807\u4F9D\u7136\u4F7F\u7528 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("a", {
         parentName: "p",
-        "href": "https://tailwindcss.com/docs/extracting-components#extracting-component-classes-with-apply"
-      }, "https://tailwindcss.com/docs/extracting-components#extracting-component-classes-with-apply")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+        "href": "https://icomoon.io/"
+      }, "IcoMoon"), " \u751F\u6210,"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("p", null, "\u5BF9\u5E94\u5B58\u653E\u76EE\u5F55\u4E3A ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("code", {
-        parentName: "pre",
-        "className": "language-scss"
-      }, ".btn-indigo {\n  @apply py-2 px-4 bg-indigo-500 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75;\n}\n")));
+      .kt)("inlineCode", {
+        parentName: "p"
+      }, "static/fonts"), " \u4E0B, \u6BCF\u6B21\u53EA\u9700\u8981\u5C06\u4ECE IcoMoon \u4E0A\u4E0B\u8F7D\u7684 zip \u5305\u76F4\u63A5\u8986\u76D6\u6389 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      /* .mdx */
+      .kt)("inlineCode", {
+        parentName: "p"
+      }, "static/fonts"), " \u4E2D\u7684\u5185\u5BB9\u5373\u53EF"));
     }
 
     ;
