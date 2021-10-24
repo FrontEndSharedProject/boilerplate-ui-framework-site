@@ -502,7 +502,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
       // return url for filenames based on template
 
       /******/
-      return "assets/css/" + "styles" + "." + "bf67e0f7" + ".css";
+      return "assets/css/" + "styles" + "." + "95663194" + ".css";
       /******/
     };
     /******/
