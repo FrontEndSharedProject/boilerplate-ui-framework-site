@@ -504,14 +504,6 @@
         parentName: "pre"
       }, "let cardName = ''\nlet cardList = ''\n\nconst getName = function(){}\n\nfunction handleEvent(){}\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "\u5E38\u91CF\u9700\u8981\u9996\u5B57\u6BCD\u5927\u5199"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("code", {
-        parentName: "pre"
-      }, "const Name = \"\"\n")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
       .kt)("p", null, "\u7C7B\u547D\u540D\u9700\u8981\u4EE5\u5927\u5199\u5B57\u6BCD\u5F00\u5934"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
       .kt)("pre", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
