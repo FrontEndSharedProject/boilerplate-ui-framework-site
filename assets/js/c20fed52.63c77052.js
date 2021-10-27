@@ -1,11 +1,15 @@
 "use strict";
 
-(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[445], {
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[452], {
   /***/
   3905:
   /***/
   function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+    "use strict";
     /* harmony export */
+
     __webpack_require__.d(__webpack_exports__, {
       /* harmony export */
       "Zo": function Zo() {
@@ -238,7 +242,8 @@
   6742:
   /***/
   function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-    // EXPORTS
+    "use strict"; // EXPORTS
+
     __webpack_require__.d(__webpack_exports__, {
       "Z": function Z() {
         return (
@@ -487,7 +492,9 @@
   3919:
   /***/
   function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+    "use strict";
     /* harmony export */
+
     __webpack_require__.d(__webpack_exports__, {
       /* harmony export */
       "b": function b() {
@@ -530,7 +537,9 @@
   4996:
   /***/
   function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+    "use strict";
     /* harmony export */
+
     __webpack_require__.d(__webpack_exports__, {
       /* harmony export */
       "C": function C() {
@@ -634,12 +643,14 @@
   8802:
   /***/
   function _(__unused_webpack_module, exports) {
+    "use strict";
     /**
      * Copyright (c) Facebook, Inc. and its affiliates.
      *
      * This source code is licensed under the MIT license found in the
      * LICENSE file in the root directory of this source tree.
      */
+
     Object.defineProperty(exports, "__esModule", {
       value: true
     }); // Trailing slash handling depends in some site configuration options
@@ -692,12 +703,14 @@
   8780:
   /***/
   function _(__unused_webpack_module, exports, __webpack_require__) {
+    "use strict";
     /**
      * Copyright (c) Facebook, Inc. and its affiliates.
      *
      * This source code is licensed under the MIT license found in the
      * LICENSE file in the root directory of this source tree.
      */
+
     var __importDefault = this && this.__importDefault || function (mod) {
       return mod && mod.__esModule ? mod : {
         "default": mod
@@ -733,12 +746,14 @@
   9964:
   /***/
   function _(__unused_webpack_module, exports) {
+    "use strict";
     /**
      * Copyright (c) Facebook, Inc. and its affiliates.
      *
      * This source code is licensed under the MIT license found in the
      * LICENSE file in the root directory of this source tree.
      */
+
     Object.defineProperty(exports, "__esModule", {
       value: true
     }); // Remove duplicate array items (similar to _.uniq)
@@ -753,177 +768,250 @@
   },
 
   /***/
-  5064:
+  154:
+  /***/
+  function _() {
+    (function () {
+      console.log("run in global");
+    })();
+    /***/
+
+  },
+
+  /***/
+  4267:
   /***/
   function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export */
+    "use strict"; // ESM COMPAT FLAG
+
+    __webpack_require__.r(__webpack_exports__); // EXPORTS
 
 
     __webpack_require__.d(__webpack_exports__, {
-      /* harmony export */
-      "frontMatter": function frontMatter() {
-        return (
-          /* binding */
-          _frontMatter
-        );
-      },
-
-      /* harmony export */
       "contentTitle": function contentTitle() {
         return (
           /* binding */
           _contentTitle
         );
       },
-
-      /* harmony export */
+      "default": function _default() {
+        return (
+          /* binding */
+          MDXContent
+        );
+      },
+      "frontMatter": function frontMatter() {
+        return (
+          /* binding */
+          _frontMatter
+        );
+      },
       "metadata": function metadata() {
         return (
           /* binding */
           _metadata
         );
       },
-
-      /* harmony export */
       "toc": function toc() {
         return (
           /* binding */
           _toc
         );
-      },
-
-      /* harmony export */
-      "default": function _default() {
-        return (
-          /* binding */
-          MDXContent
-        );
       }
-      /* harmony export */
+    }); // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
 
+
+    var esm_extends = __webpack_require__(7462); // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
+
+
+    var objectWithoutPropertiesLoose = __webpack_require__(3366); // EXTERNAL MODULE: ./node_modules/react/index.js
+
+
+    var react = __webpack_require__(7294); // EXTERNAL MODULE: ./node_modules/@mdx-js/react/dist/esm.js
+
+
+    var esm = __webpack_require__(3905); // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js + 1 modules
+
+
+    var Link = __webpack_require__(6742); // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js + 1 modules
+
+
+    var inheritsLoose = __webpack_require__(1721); // EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
+
+
+    var clsx_m = __webpack_require__(6010); // EXTERNAL MODULE: ./static/global.js
+
+
+    var global = __webpack_require__(154);
+
+    ; // CONCATENATED MODULE: ./UI/js/components/Card/index.ts
+
+    function handleCard(el, msg) {
+      el.addEventListener("click", function (ev) {
+        var target = ev.target;
+        target.classList.add('text-gray-200');
+
+        if (target.tagName.toLocaleLowerCase() === "button") {
+          alert(target.innerHTML);
+        }
+      });
+    }
+
+    ; // CONCATENATED MODULE: ./UI/js/components/index.ts
+
+    ; // CONCATENATED MODULE: ./UI/js/index.ts
+
+    ; // CONCATENATED MODULE: ./UI/index.ts
+
+    ; // CONCATENATED MODULE: ./src/components/Card/index.tsx
+
+    var CardData = new Array(4).fill("").map(function (value, key) {
+      return {
+        title: "\u6807\u9898" + key,
+        info: "\u63CF\u8FF0" + key,
+        poster: "https://tailwindcss.com/img/card-top.jpg",
+        tags: ["Tag" + key, "TAG-next" + key]
+      };
     });
-    /* harmony import */
 
+    var Card = function Card(_ref) {
+      var title = _ref.title,
+          info = _ref.info,
+          poster = _ref.poster,
+          tags = _ref.tags,
+          showBtn = _ref.showBtn,
+          index = _ref.index;
+      return /*#__PURE__*/react.createElement("div", {
+        className: "v-card mx-auto my-8 max-w-sm rounded shadow-lg overflow-hidden"
+      }, /*#__PURE__*/react.createElement("img", {
+        className: "w-full",
+        src: poster,
+        alt: title
+      }), /*#__PURE__*/react.createElement("div", {
+        className: "px-6 py-4"
+      }, /*#__PURE__*/react.createElement("div", {
+        className: "mb-2 text-custom-100 text-type-h1"
+      }, title), /*#__PURE__*/react.createElement("p", {
+        className: "text-gray-600 text-base"
+      }, info), showBtn && /*#__PURE__*/react.createElement("button", {
+        className: "px-4 py-2 text-white font-bold bg-blue-500 hover:bg-blue-700 rounded"
+      }, "\u6211\u662F\u53EF\u4EE5\u70B9\u51FB\u7684 Button ", index)), /*#__PURE__*/react.createElement("div", {
+        className: "px-6 py-4"
+      }, tags.map(function (tag) {
+        return /*#__PURE__*/react.createElement("span", {
+          key: tag,
+          className: "inline-block mr-2 px-3 py-1 text-gray-600 text-sm font-semibold bg-gray-100 rounded-full"
+        }, "#", tag);
+      })));
+    };
 
-    var _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7462);
-    /* harmony import */
+    var CardList = /*#__PURE__*/function (_React$Component) {
+      (0, inheritsLoose
+      /* default */
+      .Z)(CardList, _React$Component);
 
+      function CardList(props) {
+        var _this;
 
-    var _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3366);
-    /* harmony import */
+        _this = _React$Component.call(this, props) || this;
+        _this.box = /*#__PURE__*/react.createRef();
+        return _this;
+      }
 
+      var _proto = CardList.prototype;
 
-    var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
-    /* harmony import */
+      _proto.componentDidMount = function componentDidMount() {
+        if (this.props.handleJs) {
+          handleCard(this.box.current);
+        }
+      };
 
+      _proto.render = function render() {
+        var _this2 = this;
 
-    var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
-    /* harmony import */
+        return /*#__PURE__*/react.createElement("div", {
+          ref: this.box,
+          className: (0, clsx_m
+          /* default */
+          .Z)("card-list", "flex", "flex-row", "mb-6")
+        }, this.props.data.map(function (card, index) {
+          return /*#__PURE__*/react.createElement("div", {
+            className: (0, clsx_m
+            /* default */
+            .Z)("m-2"),
+            key: card.title
+          }, /*#__PURE__*/react.createElement(Card, {
+            title: card.title,
+            info: card.info,
+            poster: card.poster,
+            tags: card.tags,
+            showBtn: _this2.props.handleJs,
+            index: index
+          }));
+        }));
+      };
 
+      return CardList;
+    }(react.Component);
 
-    var _docusaurus_Link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6742);
+    ; // CONCATENATED MODULE: ./docs/components/card.mdx
 
     var _excluded = ["components"];
     var _frontMatter = {
-      sidebar_position: 9,
-      title: '配置文件详解'
+      sidebar_position: 1,
+      title: 'Card 组件'
     };
-    var _contentTitle = undefined;
+    var _contentTitle = 'Card 组件';
     var _metadata = {
-      "unversionedId": "advance/config-files",
-      "id": "advance/config-files",
+      "unversionedId": "components/card",
+      "id": "components/card",
       "isDocsHomePage": false,
-      "title": "配置文件详解",
-      "description": "tsconfig.json",
-      "source": "@site/docs/advance/config-files.mdx",
-      "sourceDirName": "advance",
-      "slug": "/advance/config-files",
-      "permalink": "/boilerplate-ui-framework-site/docs/advance/config-files",
+      "title": "Card 组件",
+      "description": "请不要纠结为什么这么难看, 这样处理主要是为了体现各个文件对该组件的影响!",
+      "source": "@site/docs/components/card.mdx",
+      "sourceDirName": "components",
+      "slug": "/components/card",
+      "permalink": "/boilerplate-ui-framework-site/docs/components/card",
       "tags": [],
       "version": "current",
-      "sidebarPosition": 9,
+      "sidebarPosition": 1,
       "frontMatter": {
-        "sidebar_position": 9,
-        "title": "配置文件详解"
+        "sidebar_position": 1,
+        "title": "Card 组件"
       },
       "sidebar": "tutorialSidebar",
       "previous": {
-        "title": "IE 11 兼容",
-        "permalink": "/boilerplate-ui-framework-site/docs/advance/ie11"
+        "title": "IE 下的 Grid",
+        "permalink": "/boilerplate-ui-framework-site/docs/advance/grid"
       },
       "next": {
-        "title": "Card 组件",
-        "permalink": "/boilerplate-ui-framework-site/docs/components/card"
+        "title": "图标",
+        "permalink": "/boilerplate-ui-framework-site/docs/components/icons"
       }
     };
     /* @jsxRuntime classic */
 
     /* @jsx mdx */
 
+    var cardItem = CardData[0];
     var _toc = [{
-      value: 'tsconfig.json',
-      id: 'tsconfigjson',
+      value: '基本卡片',
+      id: '基本卡片',
       children: [],
       level: 2
     }, {
-      value: 'tailwind.config.js',
-      id: 'tailwindconfigjs',
+      value: 'React 函数组件渲染',
+      id: 'react-函数组件渲染',
       children: [],
       level: 2
     }, {
-      value: 'docusaurus.config.js',
-      id: 'docusaurusconfigjs',
+      value: 'React Class 组件渲染',
+      id: 'react-class-组件渲染',
       children: [],
       level: 2
     }, {
-      value: 'babel.config.js',
-      id: 'babelconfigjs',
-      children: [],
-      level: 2
-    }, {
-      value: 'scripts/ie11.js',
-      id: 'scriptsie11js',
-      children: [],
-      level: 2
-    }, {
-      value: 'scripts/moveFiles.js',
-      id: 'scriptsmovefilesjs',
-      children: [],
-      level: 2
-    }, {
-      value: 'scripts/postcss.config.js',
-      id: 'scriptspostcssconfigjs',
-      children: [],
-      level: 2
-    }, {
-      value: 'scripts/tailwind.config.build.js',
-      id: 'scriptstailwindconfigbuildjs',
-      children: [],
-      level: 2
-    }, {
-      value: 'scripts/tsconfig.dist.json',
-      id: 'scriptstsconfigdistjson',
-      children: [],
-      level: 2
-    }, {
-      value: 'scripts/vite.config.ts',
-      id: 'scriptsviteconfigts',
-      children: [],
-      level: 2
-    }, {
-      value: 'scripts/webpack-alias.js',
-      id: 'scriptswebpack-aliasjs',
-      children: [],
-      level: 2
-    }, {
-      value: 'plugins/docusaurus-plugin-sass',
-      id: 'pluginsdocusaurus-plugin-sass',
-      children: [],
-      level: 2
-    }, {
-      value: 'plugins/docusaurus-tailwindcss-loader',
-      id: 'pluginsdocusaurus-tailwindcss-loader',
+      value: '带 js 交互的 React 组件',
+      id: '带-js-交互的-react-组件',
       children: [],
       level: 2
     }];
@@ -934,367 +1022,331 @@
 
     function MDXContent(_ref) {
       var components = _ref.components,
-          props = (0, _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_3__
-      /* ["default"] */
+          props = (0, objectWithoutPropertiesLoose
+      /* default */
       .Z)(_ref, _excluded);
-      return (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)(MDXLayout, (0, _home_runner_work_boilerplate_ui_framework_boilerplate_ui_framework_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__
-      /* ["default"] */
+      return (0, esm
+      /* mdx */
+      .kt)(MDXLayout, (0, esm_extends
+      /* default */
       .Z)({}, layoutProps, props, {
         components: components,
         mdxType: "MDXLayout"
-      }), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "tsconfigjson"
-      }, "tsconfig.json"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u5982\u679C\u4F60\u9700\u8981\u4FEE\u6539\u5361 \u5F00\u53D1\u73AF\u5883 \u548C \u751F\u4EA7\u73AF\u5883 \u4E2D\u7684 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "JS"), " \u7F16\u8BD1\u914D\u7F6E, \u8BF7\u4FEE\u6539\u8FD9\u4E2A\u6587\u4EF6"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }), (0, esm
+      /* mdx */
+      .kt)("h1", {
+        "id": "card-组件"
+      }, "Card \u7EC4\u4EF6"), (0, esm
+      /* mdx */
       .kt)("div", {
-        "className": "admonition admonition-note alert alert--secondary"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+        "className": "admonition admonition-danger alert alert--danger"
+      }, (0, esm
+      /* mdx */
       .kt)("div", {
         parentName: "div",
         "className": "admonition-heading"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
       .kt)("h5", {
         parentName: "div"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
       .kt)("span", {
         parentName: "h5",
         "className": "admonition-icon"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
       .kt)("svg", {
         parentName: "span",
         "xmlns": "http://www.w3.org/2000/svg",
-        "width": "14",
+        "width": "12",
         "height": "16",
-        "viewBox": "0 0 14 16"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+        "viewBox": "0 0 12 16"
+      }, (0, esm
+      /* mdx */
       .kt)("path", {
         parentName: "svg",
         "fillRule": "evenodd",
-        "d": "M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"
-      }))), "note")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+        "d": "M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"
+      }))), "danger")), (0, esm
+      /* mdx */
       .kt)("div", {
         parentName: "div",
         "className": "admonition-content"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
       .kt)("p", {
         parentName: "div"
-      }, "\u56E0\u4E3A JS \u6700\u7EC8\u9700\u8981\u8F6C\u6362\u6210 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "es5"), " \u7684\u4EE3\u7801, \u6240\u4EE5\u5728\u6253\u5305\u5B8C\u540E\u4F1A\u8C03\u7528 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "yarn run build:ie"), " \u547D\u4EE4,"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, "\u8BF7\u4E0D\u8981\u7EA0\u7ED3\u4E3A\u4EC0\u4E48\u8FD9\u4E48\u96BE\u770B, \u8FD9\u6837\u5904\u7406\u4E3B\u8981\u662F\u4E3A\u4E86\u4F53\u73B0\u5404\u4E2A\u6587\u4EF6\u5BF9\u8BE5\u7EC4\u4EF6\u7684\u5F71\u54CD!"))), (0, esm
+      /* mdx */
+      .kt)("blockquote", null, (0, esm
+      /* mdx */
       .kt)("p", {
-        parentName: "div"
-      }, "\u8FDB\u800C\u6267\u884C ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "/scripts/ie11.js"), " \u4ECE\u800C\u8FBE\u5230\u5C06 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "build"), " \u76EE\u5F55\u4E0B\u7684 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "js"), " \u4EE3\u7801\u8F6C\u6362\u6210 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "es5")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)(_docusaurus_Link__WEBPACK_IMPORTED_MODULE_2__
-      /* ["default"] */
+        parentName: "blockquote"
+      }, "\u8BE5\u7EC4\u4EF6\u662F\u7528\u4E8E\u6F14\u793A\u4F7F\u7528")), (0, esm
+      /* mdx */
+      .kt)(Link
+      /* default */
       .Z, {
-        to: "/docs/advance/ie11",
+        to: "/docs/paths/create-a-component",
         mdxType: "Link"
-      }, "\u70B9\u51FB\u6211\u67E5\u770B IE 11 \u517C\u5BB9\u8BE6\u60C5"), " ")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, "\u8BF7\u70B9\u51FB\u67E5\u770B\u8FD9\u91CC"), (0, esm
+      /* mdx */
       .kt)("h2", {
-        "id": "tailwindconfigjs"
-      }, "tailwind.config.js"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u4F60\u53EF\u4EE5\u5728\u8FD9\u91CC\u5B8C\u6210 \u6DFB\u52A0 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "Utilities"), " , ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "Components"), " , \u914D\u7F6E\u4E3B\u9898\u548C\u6DFB\u52A0\u63D2\u4EF6, \u90FD\u53EF\u4EE5\u5728\u8FD9\u91CC\u5B8C\u6210."), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u5982\u679C\u4F60\u8981\u4FEE\u6539 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "tailwind"), " \u4E2D\u7684 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "theme"), " \u914D\u7F6E, \u8BF7\u4FEE\u6539 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "UI/themeConfigs/theme.js"), " \u8FD9\u4E2A\u6587\u4EF6"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u5982\u679C\u4F60\u8981\u6DFB\u52A0 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "Utilities"), " \u8BF7\u4FEE\u6539 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "UI/themeConfigs/utilities.js"), " \u8FD9\u4E2A\u6587\u4EF6"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u5982\u679C\u4F60\u8981\u6DFB\u52A0 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "Components"), " \u8BF7\u53C2\u8003 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "UI/themeConfigs/utilities.js"), " \u8FD9\u4E2A\u6587\u4EF6"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u5982\u679C\u4F60\u8981\u6DFB\u52A0\u81EA\u5DF1\u5199\u7684\u63D2\u4EF6 \u8BF7\u5C06\u63D2\u4EF6\u653E\u5230 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "UI/themeConfigs"), " \u8FD9\u4E2A\u6587\u4EF6\u5939\u4E0B\u9762"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+        "id": "基本卡片"
+      }, "\u57FA\u672C\u5361\u7247"), (0, esm
+      /* mdx */
+      .kt)("section", {
+        className: "tw"
+      }, (0, esm
+      /* mdx */
+      .kt)("div", {
+        className: "max-w-sm rounded overflow-hidden shadow-lg mx-auto my-8 v-card"
+      }, (0, esm
+      /* mdx */
+      .kt)("img", {
+        className: "w-full",
+        src: "https://tailwindcss.com/img/card-top.jpg",
+        alt: "Sunset in the mountains"
+      }), (0, esm
+      /* mdx */
+      .kt)("div", {
+        className: "px-6 py-4"
+      }, (0, esm
+      /* mdx */
+      .kt)("div", {
+        className: "font-bold text-xl mb-2"
+      }, "The Coldest Sunset"), (0, esm
+      /* mdx */
+      .kt)("p", {
+        className: "text-gray-600 text-base"
+      }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.")), (0, esm
+      /* mdx */
+      .kt)("div", {
+        className: "px-6 py-4"
+      }, (0, esm
+      /* mdx */
+      .kt)("span", {
+        className: "inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2"
+      }, "#photography"), (0, esm
+      /* mdx */
+      .kt)("span", {
+        className: "inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2"
+      }, "#travel"), (0, esm
+      /* mdx */
+      .kt)("span", {
+        className: "inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600"
+      }, "#winter")))), (0, esm
+      /* mdx */
+      .kt)("pre", null, (0, esm
+      /* mdx */
+      .kt)("code", {
+        parentName: "pre",
+        "className": "language-html"
+      }, "<div class=\"mx-auto my-8 max-w-sm rounded shadow-lg overflow-hidden\">\n  <img\n    class=\"w-full\"\n    src=\"https://tailwindcss.com/img/card-top.jpg\"\n    alt=\"Sunset in the mountains\"\n  />\n  <div class=\"px-6 py-4\">\n    <div class=\"mb-2 text-xl font-bold\">The Coldest Sunset</div>\n    <p class=\"text-gray-600 text-base\">\n      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus\n      quia, nulla! Maiores et perferendis eaque, exercitationem praesentium\n      nihil.\n    </p>\n  </div>\n  <div class=\"px-6 py-4\">\n    <span\n      class=\"inline-block mr-2 px-3 py-1 text-gray-600 text-sm font-semibold bg-gray-100 rounded-full\"\n    >\n      #photography\n    </span>\n    <span\n      class=\"inline-block mr-2 px-3 py-1 text-gray-600 text-sm font-semibold bg-gray-100 rounded-full\"\n    >\n      #travel\n    </span>\n    <span\n      class=\"inline-block px-3 py-1 text-gray-600 text-sm font-semibold bg-gray-100 rounded-full\"\n    >\n      #winter\n    </span>\n  </div>\n</div>\n")), (0, esm
+      /* mdx */
       .kt)("h2", {
-        "id": "docusaurusconfigjs"
-      }, "docusaurus.config.js"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u4F60\u53EF\u4EE5\u5728\u8FD9\u91CC\u914D\u7F6E\u6574\u4E2A\u7F51\u7AD9\u7684\u4FE1\u606F, \u5982 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "title"), " , ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "logo"), " , ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "meta"), " \u4E4B\u7C7B\u7684"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "babelconfigjs"
-      }, "babel.config.js"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u4F60\u53EF\u4EE5\u5728\u8FD9\u91CC\u9762\u914D\u7F6E\u6574\u4E2A\u9879\u76EE\u4E2D\u7684 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "babel")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "scriptsie11js"
-      }, "scripts/ie11.js"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+        "id": "react-函数组件渲染"
+      }, "React \u51FD\u6570\u7EC4\u4EF6\u6E32\u67D3"), (0, esm
+      /* mdx */
       .kt)("div", {
         "className": "admonition admonition-tip alert alert--success"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
       .kt)("div", {
         parentName: "div",
         "className": "admonition-heading"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
       .kt)("h5", {
         parentName: "div"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
       .kt)("span", {
         parentName: "h5",
         "className": "admonition-icon"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
       .kt)("svg", {
         parentName: "span",
         "xmlns": "http://www.w3.org/2000/svg",
         "width": "12",
         "height": "16",
         "viewBox": "0 0 12 16"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
       .kt)("path", {
         parentName: "svg",
         "fillRule": "evenodd",
         "d": "M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"
-      }))), "tip")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }))), "tip")), (0, esm
+      /* mdx */
       .kt)("div", {
         parentName: "div",
         "className": "admonition-content"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
       .kt)("p", {
         parentName: "div"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "scripts"), " \u76EE\u5F55\u4E0B\u5B58\u653E\u7684\u90FD\u662F\u6253\u5305\u65F6\u7684\u914D\u7F6E\u6587\u4EF6!"))), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u4F60\u53EF\u4EE5\u5728\u8FD9\u4E2A\u6587\u4EF6\u4E2D, \u5904\u7406 ie11 \u7684\u517C\u5BB9\u903B\u8F91 ( js \u548C css ) \u90FD\u5728\u8FD9\u91CC\u5904\u7406"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "scriptsmovefilesjs"
-      }, "scripts/moveFiles.js"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u4F60\u53EF\u4EE5\u5728\u8FD9\u91CC\u5904\u7406\u9879\u76EE\u6253\u5305\u7ED3\u675F\u540E, \u9700\u8981 copy \u90A3\u4E9B\u6587\u4EF6\u5230 dist \u76EE\u5F55"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "scriptspostcssconfigjs"
-      }, "scripts/postcss.config.js"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u8BE5\u6587\u4EF6\u53EA\u5F71\u54CD UI \u7EC4\u4EF6\u5E93\u4E2D\u7684 css \u4EE3\u7801 (\u5305\u62EC tailwind )"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u5982\u679C\u4F60\u60F3\u5728 UI \u7EC4\u4EF6\u5E93\u6253\u5305\u7684\u8FC7\u7A0B\u4E2D\u6DFB\u52A0\u989D\u5916\u7684 Postcss \u914D\u7F6E, \u4ECE\u800C\u5F71\u54CD\u6700\u7EC8\u7684 css \u7F16\u8BD1\u7ED3\u679C"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u53EF\u4EE5\u5728\u8FD9\u4E2A\u6587\u4EF6\u8FDB\u884C\u914D\u7F6E"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "scriptstailwindconfigbuildjs"
-      }, "scripts/tailwind.config.build.js"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u8BE5\u6587\u4EF6\u53EA\u5F71\u54CD\u6253\u5305\u65F6 tailwind \u7684\u914D\u7F6E, \u5B83\u4F1A\u7EE7\u627F\u4E8E\u6839\u76EE\u5F55\u4E0B\u7684 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "tailwind.config.js"), " \u6587\u4EF6."), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "tailwindSafelist.json"), " \u4E5F\u662F\u5728\u8FD9\u4E2A\u6587\u4EF6\u4E2D\u751F\u6210\u7684"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "scriptstsconfigdistjson"
-      }, "scripts/tsconfig.dist.json"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u8BE5\u6587\u4EF6\u53EA\u5F71\u54CD\u6253\u5305\u65F6 typescript \u7684\u914D\u7F6E, \u5B83\u4F1A\u7EE7\u627F\u4E8E\u6839\u76EE\u5F55\u4E0B\u7684 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "tsconfig.json"), " \u6587\u4EF6."), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "scriptsviteconfigts"
-      }, "scripts/vite.config.ts"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u8BE5\u6587\u4EF6\u662F\u7528\u4E8E\u5904\u7406\u6253\u5305 UI \u7EC4\u4EF6\u5E93\u7684, \u5B83\u53EA\u5F71\u54CD UI \u7EC4\u4EF6\u5E93\u7684\u6253\u5305"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "scriptswebpack-aliasjs"
-      }, "scripts/webpack-alias.js"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u8FD9\u4E2A\u6587\u4EF6\u53EA\u662F\u7528\u4E8E\u5904\u7406 phpstorm \u65E0\u6CD5\u81EA\u52A8\u8BC6\u522B alias \u7684\u95EE\u9898\n\u8BF7\u4E0D\u8981\u5728\u8BE5\u6587\u4EF6\u4E2D\u914D\u7F6E webpack!"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "pluginsdocusaurus-plugin-sass"
-      }, "plugins/docusaurus-plugin-sass"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("div", {
-        "className": "admonition admonition-tip alert alert--success"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("div", {
-        parentName: "div",
-        "className": "admonition-heading"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h5", {
-        parentName: "div"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("span", {
-        parentName: "h5",
-        "className": "admonition-icon"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("svg", {
-        parentName: "span",
-        "xmlns": "http://www.w3.org/2000/svg",
-        "width": "12",
-        "height": "16",
-        "viewBox": "0 0 12 16"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("path", {
-        parentName: "svg",
-        "fillRule": "evenodd",
-        "d": "M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"
-      }))), "tip")), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("div", {
-        parentName: "div",
-        "className": "admonition-content"
-      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, "\u5728\u67E5\u770B\u6E90\u4EE3\u7801\u4E4B\u524D, \u8BF7\u786E\u4FDD\u4F60\u5BF9 \u51FD\u6570\u7EC4\u4EF6 \u4E0E class \u7EC4\u4EF6\u7684\u533A\u522B\u6709\u6240\u4E86\u89E3"), (0, esm
+      /* mdx */
       .kt)("p", {
         parentName: "div"
-      }, "plugins \u6587\u4EF6\u5939\u4E0B\u9762\u7684\u6587\u4EF6\u662F\u7528\u4F5C\u4E0E npm \u8FDB\u884C\u4F9D\u8D56\u5B89\u88C5\u7684."), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", {
-        parentName: "div"
-      }, "\u5982\u679C\u4F60\u9700\u4FEE\u6539\u5B8C\u9700\u8981\u91CD\u65B0\u6267\u884C ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "yarn install"), " \u624D\u80FD\u4FDD\u8BC1\u8BE5\u6587\u4EF6\u88AB\u6B63\u786E\u7684\u5B89\u88C5\u5230 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "node_modules"), " \u4E2D"))), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u8BE5\u6587\u4EF6\u662F\u8BA9 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "docusaurus"), " \u652F\u6301 ", (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("inlineCode", {
-        parentName: "p"
-      }, "sass"), " \u6587\u4EF6"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
+      }, (0, esm
+      /* mdx */
+      .kt)("a", {
+        parentName: "p",
+        "href": "https://zh-hans.reactjs.org/docs/components-and-props.html#function-and-class-components"
+      }, "https://zh-hans.reactjs.org/docs/components-and-props.html#function-and-class-components")))), (0, esm
+      /* mdx */
+      .kt)("section", {
+        className: "tw"
+      }, (0, esm
+      /* mdx */
+      .kt)(Card, {
+        title: cardItem.title,
+        info: cardItem.info,
+        poster: cardItem.poster,
+        tags: cardItem.tags,
+        mdxType: "Card"
+      })), (0, esm
+      /* mdx */
+      .kt)("pre", null, (0, esm
+      /* mdx */
+      .kt)("code", {
+        parentName: "pre",
+        "className": "language-html"
+      }, "<div class=\"v-card mx-auto my-8 max-w-sm rounded shadow-lg overflow-hidden\">\n  <img\n    class=\"w-full\"\n    src=\"https://tailwindcss.com/img/card-top.jpg\"\n    alt=\"\u6807\u9898\"\n  />\n  <div class=\"px-6 py-4\">\n    <div class=\"mb-2 text-xl font-bold\">\u6807\u9898</div>\n    <p class=\"text-gray-600 text-base\">\u63CF\u8FF0</p>\n  </div>\n  <div class=\"px-6 py-4\">\n    <span\n      class=\"inline-block mr-2 px-3 py-1 text-gray-600 text-sm font-semibold bg-gray-100 rounded-full\"\n      >#\u6807\u7B7E1</span\n    ><span\n      class=\"inline-block mr-2 px-3 py-1 text-gray-600 text-sm font-semibold bg-gray-100 rounded-full\"\n      >#\u6807\u7B7E2</span\n    >\n  </div>\n</div>\n")), (0, esm
+      /* mdx */
       .kt)("h2", {
-        "id": "pluginsdocusaurus-tailwindcss-loader"
-      }, "plugins/docusaurus-tailwindcss-loader"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u8BE5\u6587\u4EF6\u662F\u8BA9 docusaurus \u652F\u6301 tailwind"));
+        "id": "react-class-组件渲染"
+      }, "React Class \u7EC4\u4EF6\u6E32\u67D3"), (0, esm
+      /* mdx */
+      .kt)("section", {
+        className: "tw"
+      }, (0, esm
+      /* mdx */
+      .kt)(CardList, {
+        data: CardData,
+        mdxType: "CardList"
+      })), (0, esm
+      /* mdx */
+      .kt)("pre", null, (0, esm
+      /* mdx */
+      .kt)("code", {
+        parentName: "pre",
+        "className": "language-html"
+      }, "<div class=\"card-list flex flex-row\">\n  <!--\u904D\u5386\u5F00\u59CB-->\n  <div class=\"m-2\">\n    <div class=\"v-card mx-auto my-8 max-w-sm rounded shadow-lg overflow-hidden\">\n      <img\n        class=\"w-full\"\n        src=\"https://tailwindcss.com/img/card-top.jpg\"\n        alt=\"\u6807\u98980\"\n      />\n      <div class=\"px-6 py-4\">\n        <div class=\"mb-2 text-xl font-bold\">\u6807\u98980</div>\n        <p class=\"text-gray-600 text-base\">\u63CF\u8FF00</p>\n      </div>\n      <div class=\"px-6 py-4\">\n        <span\n          class=\"inline-block mr-2 px-3 py-1 text-gray-600 text-sm font-semibold bg-gray-100 rounded-full\"\n          >#Tag0</span\n        ><span\n          class=\"inline-block mr-2 px-3 py-1 text-gray-600 text-sm font-semibold bg-gray-100 rounded-full\"\n          >#TAG-next0</span\n        >\n      </div>\n    </div>\n  </div>\n  <!--\u904D\u5386\u7ED3\u675F-->\n</div>\n")), (0, esm
+      /* mdx */
+      .kt)("h2", {
+        "id": "带-js-交互的-react-组件"
+      }, "\u5E26 js \u4EA4\u4E92\u7684 React \u7EC4\u4EF6"), (0, esm
+      /* mdx */
+      .kt)("section", {
+        className: "tw"
+      }, (0, esm
+      /* mdx */
+      .kt)(CardList, {
+        id: "CardEvent",
+        handleJs: true,
+        data: CardData,
+        mdxType: "CardList"
+      })), (0, esm
+      /* mdx */
+      .kt)("pre", null, (0, esm
+      /* mdx */
+      .kt)("code", {
+        parentName: "pre",
+        "className": "language-html",
+        "metastring": "title=\"html\"",
+        "title": "\"html\""
+      }, "<div class=\"card-list flex flex-row mb-6\">\n  <!--\u904D\u5386\u5F00\u59CB-->\n  <div class=\"m-2\">\n    <div class=\"v-card mx-auto my-8 max-w-sm rounded shadow-lg overflow-hidden\">\n      <img\n        class=\"w-full\"\n        src=\"https://tailwindcss.com/img/card-top.jpg\"\n        alt=\"\u6807\u98983\"\n      />\n      <div class=\"px-6 py-4\">\n        <div class=\"mb-2 text-xl font-bold\">\u6807\u98983</div>\n        <p class=\"text-gray-600 text-base\">\u63CF\u8FF03</p>\n        <button\n          class=\"px-4 py-2 text-white font-bold bg-blue-500 hover:bg-blue-700 rounded\"\n        >\n          \u6211\u662F\u53EF\u4EE5\u70B9\u51FB\u7684 Button 3\n        </button>\n      </div>\n      <div class=\"px-6 py-4\">\n        <span\n          class=\"inline-block mr-2 px-3 py-1 text-gray-600 text-sm font-semibold bg-gray-100 rounded-full\"\n          >#Tag3</span\n        ><span\n          class=\"inline-block mr-2 px-3 py-1 text-gray-600 text-sm font-semibold bg-gray-100 rounded-full\"\n          >#TAG-next3</span\n        >\n      </div>\n    </div>\n  </div>\n  <!--\u904D\u5386\u7ED3\u675F-->\n</div>\n")), (0, esm
+      /* mdx */
+      .kt)("pre", null, (0, esm
+      /* mdx */
+      .kt)("code", {
+        parentName: "pre",
+        "className": "language-typescript",
+        "metastring": "title=\"JS 调用插件\"",
+        "title": "\"JS",
+        "调用插件\"": true
+      }, "import { handleCard } from \"@UI/js/components/card\";\nhandleCard(document.querySelector(\".card-list\") as HTMLDialogElement);\n")));
     }
 
     ;
     MDXContent.isMDXComponent = true;
     /***/
+  },
+
+  /***/
+  6010:
+  /***/
+  function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+    /* harmony export */
+
+    __webpack_require__.d(__webpack_exports__, {
+      /* harmony export */
+      "Z": function Z() {
+        return (
+          /* export default binding */
+          __WEBPACK_DEFAULT_EXPORT__
+        );
+      }
+      /* harmony export */
+
+    });
+
+    function toVal(mix) {
+      var k,
+          y,
+          str = '';
+
+      if (typeof mix === 'string' || typeof mix === 'number') {
+        str += mix;
+      } else if (_typeof(mix) === 'object') {
+        if (Array.isArray(mix)) {
+          for (k = 0; k < mix.length; k++) {
+            if (mix[k]) {
+              if (y = toVal(mix[k])) {
+                str && (str += ' ');
+                str += y;
+              }
+            }
+          }
+        } else {
+          for (k in mix) {
+            if (mix[k]) {
+              str && (str += ' ');
+              str += k;
+            }
+          }
+        }
+      }
+
+      return str;
+    }
+    /* harmony default export */
+
+
+    function __WEBPACK_DEFAULT_EXPORT__() {
+      var i = 0,
+          tmp,
+          x,
+          str = '';
+
+      while (i < arguments.length) {
+        if (tmp = arguments[i++]) {
+          if (x = toVal(tmp)) {
+            str && (str += ' ');
+            str += x;
+          }
+        }
+      }
+
+      return str;
+    }
+    /***/
+
   }
 }]);

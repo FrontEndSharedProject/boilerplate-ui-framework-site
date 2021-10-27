@@ -1,6 +1,6 @@
 "use strict";
 
-(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[814], {
+(self["webpackChunkboilerplate_ui_framework"] = self["webpackChunkboilerplate_ui_framework"] || []).push([[120], {
   /***/
   3905:
   /***/
@@ -235,7 +235,7 @@
   },
 
   /***/
-  4521:
+  297:
   /***/
   function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
     __webpack_require__.r(__webpack_exports__);
@@ -304,52 +304,42 @@
 
     var _excluded = ["components"];
     var _frontMatter = {
-      sidebar_position: 1,
-      title: 'MDX 使用'
+      sidebar_position: 10,
+      title: 'IE 下的 Grid'
     };
     var _contentTitle = undefined;
     var _metadata = {
-      "unversionedId": "advance/mdx",
-      "id": "advance/mdx",
+      "unversionedId": "advance/grid",
+      "id": "advance/grid",
       "isDocsHomePage": false,
-      "title": "MDX 使用",
-      "description": "介绍",
-      "source": "@site/docs/advance/mdx.mdx",
+      "title": "IE 下的 Grid",
+      "description": "1",
+      "source": "@site/docs/advance/grid.mdx",
       "sourceDirName": "advance",
-      "slug": "/advance/mdx",
-      "permalink": "/boilerplate-ui-framework-site/docs/advance/mdx",
+      "slug": "/advance/grid",
+      "permalink": "/boilerplate-ui-framework-site/docs/advance/grid",
       "tags": [],
       "version": "current",
-      "sidebarPosition": 1,
+      "sidebarPosition": 10,
       "frontMatter": {
-        "sidebar_position": 1,
-        "title": "MDX 使用"
+        "sidebar_position": 10,
+        "title": "IE 下的 Grid"
       },
       "sidebar": "tutorialSidebar",
       "previous": {
-        "title": "主题配置",
-        "permalink": "/boilerplate-ui-framework-site/docs/paths/theme-config"
+        "title": "配置文件详解",
+        "permalink": "/boilerplate-ui-framework-site/docs/advance/config-files"
       },
       "next": {
-        "title": "命名与代码风格",
-        "permalink": "/boilerplate-ui-framework-site/docs/advance/standard"
+        "title": "Card 组件",
+        "permalink": "/boilerplate-ui-framework-site/docs/components/card"
       }
     };
     /* @jsxRuntime classic */
 
     /* @jsx mdx */
 
-    var _toc = [{
-      value: '介绍',
-      id: '介绍',
-      children: [],
-      level: 2
-    }, {
-      value: '具体内容请查看官网',
-      id: '具体内容请查看官网',
-      children: [],
-      level: 2
-    }];
+    var _toc = [];
     var layoutProps = {
       toc: _toc
     };
@@ -369,38 +359,33 @@
         mdxType: "MDXLayout"
       }), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("h2", {
-        "id": "介绍"
-      }, "\u4ECB\u7ECD"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("section", {
+        className: "tw"
+      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "MDX \u662F\u4E00\u79CD\u4E66\u5199\u683C\u5F0F\uFF0C\u5141\u8BB8\u4F60\u5728 Markdown \u6587\u6863\u4E2D\u65E0\u7F1D\u5730\u63D2\u5165 JSX \u4EE3\u7801\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("div", {
+        className: "border-2 border-gray-800 p-2"
+      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "\u4F60\u53EF\u4EE5\u5BFC\u5165\uFF08import\uFF09\u7EC4\u4EF6\uFF0C\u4F8B\u5982\u4EA4\u4E92\u5F0F\u56FE\u8868\u6216\u5F39\u6846\uFF0C\u5E76\u5C06\u5B83\u4EEC \u5D4C\u5165\u5230\u5185\u5BB9\u5F53\u4E2D\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("div", {
+        className: "grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-4"
+      }, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "\u8FD9\u4F7F\u5F97\u7528\u7EC4\u4EF6\u7F16\u5199\u8F83\u957F\u7684\u5185\u5BB9\u5F62\u6210\u4E86 \u4E00\u573A\u51B2\u51FB \uD83D\uDE80\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("div", {
+        className: "border-2 text-center border-indigo-600"
+      }, "1"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "\u2764\uFE0F \u5F3A\u5927\uFF1A MDX \u5C06 markdown \u548C JSX \u8BED\u6CD5\u6DF7\u5408\u5728\u4E00\u8D77\u5E76\u5B8C\u7F8E\u5730 \u878D\u5165\u57FA\u4E8E JSX \u7684\u9879\u76EE\u5F53\u4E2D\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("div", {
+        className: "border-2 text-center border-indigo-600"
+      }, "2"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "\uD83D\uDCBB \u4E00\u5207\u7686\u7EC4\u4EF6\uFF1A \u5BFC\u5165\uFF08import\uFF09 JSX \u7EC4\u4EF6\u5E76 \u5728 MDX \u6587\u6863\u4E2D\u76F4\u63A5\u6E32\u67D3\u5B83\u4EEC\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
+      .kt)("div", {
+        className: "border-2 text-center border-indigo-600"
+      }, "3"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
       /* .mdx */
-      .kt)("p", null, "\uD83D\uDD27 \u53EF\u5B9A\u5236\uFF1A \u4E3A\u6BCF\u4E00\u4E2A markdown \u5143\u7D20\u51B3\u5B9A\u7528\u54EA\u4E2A\u7EC4\u4EF6\u6E32\u67D3\u3002 \u6E32\u67D3\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\uD83D\uDCDA \u57FA\u4E8E Markdown\uFF1A Markdown \u7684\u7B80\u6D01\u548C\u4F18\u96C5\u4F9D\u7136\u5F97\u5230\u4E86\u4FDD\u5B58\uFF0C \u53EA\u987B\u5728\u9700\u8981\u65F6\u624D\u6DF7\u5165 JSX \u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\uD83D\uDD25 \u8D85\u7EA7\u8D85\u7EA7\u5FEB\uFF1A MDX \u6CA1\u6709\u8FD0\u884C\u65F6\uFF0C\u6240\u6709\u7684\u7F16\u8BD1\u90FD\u53D1\u751F\u5728 \u6784\u5EFA\u9636\u6BB5\u3002"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, "\u7F16\u4E0D\u4E0B\u53BB\u4E86.."), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("h2", {
-        "id": "具体内容请查看官网"
-      }, "\u5177\u4F53\u5185\u5BB9\u8BF7\u67E5\u770B\u5B98\u7F51"), (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("p", null, (0, _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__
-      /* .mdx */
-      .kt)("a", {
-        parentName: "p",
-        "href": "https://mdxjs.com/"
-      }, "https://mdxjs.com/")));
+      .kt)("div", {
+        className: "border-2 text-center border-indigo-600"
+      }, "4")))));
     }
 
     ;

@@ -331,8 +331,8 @@
         "permalink": "/boilerplate-ui-framework-site/docs/paths/apply"
       },
       "next": {
-        "title": "MDX 使用",
-        "permalink": "/boilerplate-ui-framework-site/docs/advance/mdx"
+        "title": "Grid",
+        "permalink": "/boilerplate-ui-framework-site/docs/paths/grid"
       }
     };
     /* @jsxRuntime classic */

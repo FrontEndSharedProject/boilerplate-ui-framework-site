@@ -35,7 +35,7 @@ function _typeof2(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "funct
       "onDuplicateRoutes": "error",
       "favicon": "/img/favicon.ico",
       "noIndex": true,
-      "scripts": ["/boilerplate-ui-framework-site/loadPolyfill.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"],
+      "scripts": ["https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js", "/boilerplate-ui-framework-site/global.js", "/boilerplate-ui-framework-site/loadPolyfill.js"],
       "stylesheets": ["/boilerplate-ui-framework-site/fonts/style.css"],
       "organizationName": "carl-jin",
       "projectName": "UI-framework-boilerplate",
@@ -391,7 +391,7 @@ function _typeof2(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "funct
 
     ; // CONCATENATED MODULE: ./.docusaurus/routesChunkNames.json
 
-    var routesChunkNames_namespaceObject = JSON.parse('{"/boilerplate-ui-framework-site/-ada":{"component":"c4f5d8e4","config":"5e9f5e1a"},"/boilerplate-ui-framework-site/blog/archive-b95":{"component":"9e4087bc","archive":"2cff1670"},"/boilerplate-ui-framework-site/docs-c91":{"component":"1be78505","versionMetadata":"935f2afb"},"/boilerplate-ui-framework-site/docs/advance/build-4d4":{"component":"17896441","content":"8d85f2e7"},"/boilerplate-ui-framework-site/docs/advance/config-472":{"component":"17896441","content":"31c0b5e4"},"/boilerplate-ui-framework-site/docs/advance/config-files-fcd":{"component":"17896441","content":"380d5c73"},"/boilerplate-ui-framework-site/docs/advance/deploy-a9f":{"component":"17896441","content":"54ada242"},"/boilerplate-ui-framework-site/docs/advance/ie11-323":{"component":"17896441","content":"7a057866"},"/boilerplate-ui-framework-site/docs/advance/jit-84a":{"component":"17896441","content":"27e86ee6"},"/boilerplate-ui-framework-site/docs/advance/mdx-fe0":{"component":"17896441","content":"52504bcc"},"/boilerplate-ui-framework-site/docs/advance/standard-adc":{"component":"17896441","content":"0a9ad131"},"/boilerplate-ui-framework-site/docs/advance/use-as-a-package-4e3":{"component":"17896441","content":"70095ecc"},"/boilerplate-ui-framework-site/docs/components/card-310":{"component":"17896441","content":"c20fed52"},"/boilerplate-ui-framework-site/docs/components/icons-371":{"component":"17896441","content":"7b06ddcb"},"/boilerplate-ui-framework-site/docs/components/lineClamp-448":{"component":"17896441","content":"a942c952"},"/boilerplate-ui-framework-site/docs/intro-f8d":{"component":"17896441","content":"f8409a7e"},"/boilerplate-ui-framework-site/docs/paths/apply-005":{"component":"17896441","content":"23d6d8cb"},"/boilerplate-ui-framework-site/docs/paths/create-a-component-be3":{"component":"17896441","content":"d18fc86d"},"/boilerplate-ui-framework-site/docs/paths/theme-config-1f1":{"component":"17896441","content":"14ecf4e3"},"/boilerplate-ui-framework-site/docs/paths/use-image-3fd":{"component":"17896441","content":"6e558a13"},"/boilerplate-ui-framework-site/docs/paths/use-link-ef6":{"component":"17896441","content":"1cc229ce"},"/boilerplate-ui-framework-site/docs/paths/use-remote-source-b58":{"component":"17896441","content":"d800760c"}}');
+    var routesChunkNames_namespaceObject = JSON.parse('{"/boilerplate-ui-framework-site/-ada":{"component":"c4f5d8e4","config":"5e9f5e1a"},"/boilerplate-ui-framework-site/blog/archive-b95":{"component":"9e4087bc","archive":"2cff1670"},"/boilerplate-ui-framework-site/docs-5aa":{"component":"1be78505","versionMetadata":"935f2afb"},"/boilerplate-ui-framework-site/docs/advance/build-4d4":{"component":"17896441","content":"8d85f2e7"},"/boilerplate-ui-framework-site/docs/advance/config-472":{"component":"17896441","content":"31c0b5e4"},"/boilerplate-ui-framework-site/docs/advance/config-files-fcd":{"component":"17896441","content":"380d5c73"},"/boilerplate-ui-framework-site/docs/advance/deploy-a9f":{"component":"17896441","content":"54ada242"},"/boilerplate-ui-framework-site/docs/advance/grid-651":{"component":"17896441","content":"9b75b318"},"/boilerplate-ui-framework-site/docs/advance/ie11-323":{"component":"17896441","content":"7a057866"},"/boilerplate-ui-framework-site/docs/advance/jit-84a":{"component":"17896441","content":"27e86ee6"},"/boilerplate-ui-framework-site/docs/advance/mdx-fe0":{"component":"17896441","content":"52504bcc"},"/boilerplate-ui-framework-site/docs/advance/standard-adc":{"component":"17896441","content":"0a9ad131"},"/boilerplate-ui-framework-site/docs/advance/use-as-a-package-4e3":{"component":"17896441","content":"70095ecc"},"/boilerplate-ui-framework-site/docs/components/card-310":{"component":"17896441","content":"c20fed52"},"/boilerplate-ui-framework-site/docs/components/icons-371":{"component":"17896441","content":"7b06ddcb"},"/boilerplate-ui-framework-site/docs/components/lineClamp-448":{"component":"17896441","content":"a942c952"},"/boilerplate-ui-framework-site/docs/intro-f8d":{"component":"17896441","content":"f8409a7e"},"/boilerplate-ui-framework-site/docs/paths/apply-005":{"component":"17896441","content":"23d6d8cb"},"/boilerplate-ui-framework-site/docs/paths/create-a-component-be3":{"component":"17896441","content":"d18fc86d"},"/boilerplate-ui-framework-site/docs/paths/globaljs-f04":{"component":"17896441","content":"ae1eb8eb"},"/boilerplate-ui-framework-site/docs/paths/grid-688":{"component":"17896441","content":"5bac73af"},"/boilerplate-ui-framework-site/docs/paths/theme-config-1f1":{"component":"17896441","content":"14ecf4e3"},"/boilerplate-ui-framework-site/docs/paths/use-image-3fd":{"component":"17896441","content":"6e558a13"},"/boilerplate-ui-framework-site/docs/paths/use-link-ef6":{"component":"17896441","content":"1cc229ce"},"/boilerplate-ui-framework-site/docs/paths/use-remote-source-b58":{"component":"17896441","content":"d800760c"}}');
     ; // CONCATENATED MODULE: ./.docusaurus/registry.js
 
     /* harmony default export */
@@ -481,6 +481,13 @@ function _typeof2(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "funct
       }, "@site/docs/advance/deploy.mdx",
       /*require.resolve*/
       9943],
+      '5bac73af': [function () {
+        return __webpack_require__.e(
+        /* import() | 5bac73af */
+        65).then(__webpack_require__.bind(__webpack_require__, 7443));
+      }, "@site/docs/paths/grid.mdx",
+      /*require.resolve*/
+      7443],
       '5e9f5e1a': [function () {
         return Promise.resolve().then(__webpack_require__.bind(__webpack_require__, 9782));
       }, "@generated/docusaurus.config",
@@ -528,6 +535,13 @@ function _typeof2(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "funct
       }, "~docs/default/version-current-metadata-prop-751.json",
       /*require.resolve*/
       1109],
+      '9b75b318': [function () {
+        return __webpack_require__.e(
+        /* import() | 9b75b318 */
+        120).then(__webpack_require__.bind(__webpack_require__, 297));
+      }, "@site/docs/advance/grid.mdx",
+      /*require.resolve*/
+      297],
       '9e4087bc': [function () {
         return Promise.all(
         /* import() | 9e4087bc */
@@ -542,6 +556,13 @@ function _typeof2(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "funct
       }, "@site/docs/components/lineClamp.mdx",
       /*require.resolve*/
       5308],
+      'ae1eb8eb': [function () {
+        return __webpack_require__.e(
+        /* import() | ae1eb8eb */
+        261).then(__webpack_require__.bind(__webpack_require__, 4779));
+      }, "@site/docs/paths/globaljs.mdx",
+      /*require.resolve*/
+      4779],
       'c20fed52': [function () {
         return Promise.all(
         /* import() | c20fed52 */
@@ -723,7 +744,7 @@ function _typeof2(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "funct
       exact: true
     }, {
       path: '/boilerplate-ui-framework-site/docs',
-      component: exports_ComponentCreator('/boilerplate-ui-framework-site/docs', 'c91'),
+      component: exports_ComponentCreator('/boilerplate-ui-framework-site/docs', '5aa'),
       routes: [{
         path: '/boilerplate-ui-framework-site/docs/advance/build',
         component: exports_ComponentCreator('/boilerplate-ui-framework-site/docs/advance/build', '4d4'),
@@ -742,6 +763,11 @@ function _typeof2(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "funct
       }, {
         path: '/boilerplate-ui-framework-site/docs/advance/deploy',
         component: exports_ComponentCreator('/boilerplate-ui-framework-site/docs/advance/deploy', 'a9f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      }, {
+        path: '/boilerplate-ui-framework-site/docs/advance/grid',
+        component: exports_ComponentCreator('/boilerplate-ui-framework-site/docs/advance/grid', '651'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }, {
@@ -797,6 +823,16 @@ function _typeof2(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "funct
       }, {
         path: '/boilerplate-ui-framework-site/docs/paths/create-a-component',
         component: exports_ComponentCreator('/boilerplate-ui-framework-site/docs/paths/create-a-component', 'be3'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      }, {
+        path: '/boilerplate-ui-framework-site/docs/paths/globaljs',
+        component: exports_ComponentCreator('/boilerplate-ui-framework-site/docs/paths/globaljs', 'f04'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      }, {
+        path: '/boilerplate-ui-framework-site/docs/paths/grid',
+        component: exports_ComponentCreator('/boilerplate-ui-framework-site/docs/paths/grid', '688'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }, {
@@ -2498,7 +2534,7 @@ function _typeof2(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "funct
 
     ; // CONCATENATED MODULE: ./.docusaurus/globalData.json
 
-    var globalData_namespaceObject = JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/boilerplate-ui-framework-site/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/boilerplate-ui-framework-site/docs","mainDocId":"intro","docs":[{"id":"advance/build","path":"/boilerplate-ui-framework-site/docs/advance/build","sidebar":"tutorialSidebar"},{"id":"advance/config","path":"/boilerplate-ui-framework-site/docs/advance/config","sidebar":"tutorialSidebar"},{"id":"advance/config-files","path":"/boilerplate-ui-framework-site/docs/advance/config-files","sidebar":"tutorialSidebar"},{"id":"advance/deploy","path":"/boilerplate-ui-framework-site/docs/advance/deploy","sidebar":"tutorialSidebar"},{"id":"advance/ie11","path":"/boilerplate-ui-framework-site/docs/advance/ie11","sidebar":"tutorialSidebar"},{"id":"advance/jit","path":"/boilerplate-ui-framework-site/docs/advance/jit","sidebar":"tutorialSidebar"},{"id":"advance/mdx","path":"/boilerplate-ui-framework-site/docs/advance/mdx","sidebar":"tutorialSidebar"},{"id":"advance/standard","path":"/boilerplate-ui-framework-site/docs/advance/standard","sidebar":"tutorialSidebar"},{"id":"advance/use-as-a-package","path":"/boilerplate-ui-framework-site/docs/advance/use-as-a-package","sidebar":"tutorialSidebar"},{"id":"components/card","path":"/boilerplate-ui-framework-site/docs/components/card","sidebar":"tutorialSidebar"},{"id":"components/icons","path":"/boilerplate-ui-framework-site/docs/components/icons","sidebar":"tutorialSidebar"},{"id":"components/lineClamp","path":"/boilerplate-ui-framework-site/docs/components/lineClamp","sidebar":"tutorialSidebar"},{"id":"intro","path":"/boilerplate-ui-framework-site/docs/intro","sidebar":"tutorialSidebar"},{"id":"paths/apply","path":"/boilerplate-ui-framework-site/docs/paths/apply","sidebar":"tutorialSidebar"},{"id":"paths/create-a-component","path":"/boilerplate-ui-framework-site/docs/paths/create-a-component","sidebar":"tutorialSidebar"},{"id":"paths/theme-config","path":"/boilerplate-ui-framework-site/docs/paths/theme-config","sidebar":"tutorialSidebar"},{"id":"paths/use-image","path":"/boilerplate-ui-framework-site/docs/paths/use-image","sidebar":"tutorialSidebar"},{"id":"paths/use-link","path":"/boilerplate-ui-framework-site/docs/paths/use-link","sidebar":"tutorialSidebar"},{"id":"paths/use-remote-source","path":"/boilerplate-ui-framework-site/docs/paths/use-remote-source","sidebar":"tutorialSidebar"}]}]}}}');
+    var globalData_namespaceObject = JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/boilerplate-ui-framework-site/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/boilerplate-ui-framework-site/docs","mainDocId":"intro","docs":[{"id":"advance/build","path":"/boilerplate-ui-framework-site/docs/advance/build","sidebar":"tutorialSidebar"},{"id":"advance/config","path":"/boilerplate-ui-framework-site/docs/advance/config","sidebar":"tutorialSidebar"},{"id":"advance/config-files","path":"/boilerplate-ui-framework-site/docs/advance/config-files","sidebar":"tutorialSidebar"},{"id":"advance/deploy","path":"/boilerplate-ui-framework-site/docs/advance/deploy","sidebar":"tutorialSidebar"},{"id":"advance/grid","path":"/boilerplate-ui-framework-site/docs/advance/grid","sidebar":"tutorialSidebar"},{"id":"advance/ie11","path":"/boilerplate-ui-framework-site/docs/advance/ie11","sidebar":"tutorialSidebar"},{"id":"advance/jit","path":"/boilerplate-ui-framework-site/docs/advance/jit","sidebar":"tutorialSidebar"},{"id":"advance/mdx","path":"/boilerplate-ui-framework-site/docs/advance/mdx","sidebar":"tutorialSidebar"},{"id":"advance/standard","path":"/boilerplate-ui-framework-site/docs/advance/standard","sidebar":"tutorialSidebar"},{"id":"advance/use-as-a-package","path":"/boilerplate-ui-framework-site/docs/advance/use-as-a-package","sidebar":"tutorialSidebar"},{"id":"components/card","path":"/boilerplate-ui-framework-site/docs/components/card","sidebar":"tutorialSidebar"},{"id":"components/icons","path":"/boilerplate-ui-framework-site/docs/components/icons","sidebar":"tutorialSidebar"},{"id":"components/lineClamp","path":"/boilerplate-ui-framework-site/docs/components/lineClamp","sidebar":"tutorialSidebar"},{"id":"intro","path":"/boilerplate-ui-framework-site/docs/intro","sidebar":"tutorialSidebar"},{"id":"paths/apply","path":"/boilerplate-ui-framework-site/docs/paths/apply","sidebar":"tutorialSidebar"},{"id":"paths/create-a-component","path":"/boilerplate-ui-framework-site/docs/paths/create-a-component","sidebar":"tutorialSidebar"},{"id":"paths/globaljs","path":"/boilerplate-ui-framework-site/docs/paths/globaljs","sidebar":"tutorialSidebar"},{"id":"paths/grid","path":"/boilerplate-ui-framework-site/docs/paths/grid","sidebar":"tutorialSidebar"},{"id":"paths/theme-config","path":"/boilerplate-ui-framework-site/docs/paths/theme-config","sidebar":"tutorialSidebar"},{"id":"paths/use-image","path":"/boilerplate-ui-framework-site/docs/paths/use-image","sidebar":"tutorialSidebar"},{"id":"paths/use-link","path":"/boilerplate-ui-framework-site/docs/paths/use-link","sidebar":"tutorialSidebar"},{"id":"paths/use-remote-source","path":"/boilerplate-ui-framework-site/docs/paths/use-remote-source","sidebar":"tutorialSidebar"}]}]}}}');
     ; // CONCATENATED MODULE: ./.docusaurus/i18n.json
 
     var i18n_namespaceObject = JSON.parse('{"defaultLocale":"en","locales":["en"],"currentLocale":"en","localeConfigs":{"en":{"label":"English","direction":"ltr"}}}'); // EXTERNAL MODULE: ./.docusaurus/codeTranslations.json

@@ -9,14 +9,18 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 
   var t = "";
 
-  function i(d, a) {
-    d.addEventListener("click", function (o) {
-      var n = o.target;
+  (function () {
+    console.log("run in global");
+  })();
+
+  function o(i, a) {
+    i.addEventListener("click", function (d) {
+      var n = d.target;
       n.classList.add("text-gray-200"), n.tagName.toLocaleLowerCase() === "button" && alert(n.innerHTML);
     });
   }
 
-  e.handleCard = i, Object.defineProperty(e, "__esModule", {
+  e.handleCard = o, Object.defineProperty(e, "__esModule", {
     value: !0
   }), e[Symbol.toStringTag] = "Module";
 });

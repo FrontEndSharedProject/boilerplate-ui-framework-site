@@ -1,4 +1,7 @@
 var index = "";
+(function() {
+  console.log("run in global");
+})();
 function handleCard(el, msg) {
   el.addEventListener("click", (ev) => {
     const target = ev.target;
